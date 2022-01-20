@@ -1,0 +1,120 @@
+@import url("../reset2.css");
+
+html {
+    font-size: 10px;
+}
+
+.x {
+    position: relative;
+    font-size: 1.5rem;
+}
+/* header 부분 */
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 3.6rem;
+}
+
+.logo {
+    width: 7.5rem;
+    height: auto;
+    margin-top: 1.95rem;
+    display: flex;
+}
+
+.place-tab {
+    display: flex;
+    align-items: center;
+}
+
+.tab-inner {
+    display: flex;
+}
+
+.tab {
+    width: 9.75rem;
+    height: 2.25rem;
+    margin-right: 1.8rem;
+    text-align: center;
+
+}
+
+.txt {
+    line-height: 2.25rem;
+}
+
+.yellow-btn {
+    text-align: center;
+    height: 4.8rem;
+    padding: 1.2rem 8rem;
+    background-color: #FFCC00;
+    border-radius: 1.2rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* footer 부분 */
+.footer-area {
+    padding: 0rem 3.6rem;
+    background-color: #EDEDED;
+    height: 20rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img {
+    margin-right: 6.0rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.content-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+}
+
+.content-content {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+/* main 부분 */
+.main {
+    text-align: center;
+    height: 76.8rem;
+}
+
+.main-catchphrase {
+    display: flex;
+    justify-content: center;
+}
+
+.main-catchphrase img {
+    height: 40rem;
+    width: auto;
+}
+
+.main-text {
+    margin-bottom: 5.4rem;
+    line-height: 2.2rem;
+}
+
+.main-signup {
+    margin-bottom: 4.8rem;
+}
+

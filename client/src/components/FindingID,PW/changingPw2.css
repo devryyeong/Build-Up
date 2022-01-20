@@ -1,0 +1,75 @@
+@import url("../reset2.css");
+/* header 영역 */
+
+html {
+    font-size: 10px;
+}
+
+.logo-fixed {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3.7rem;
+    margin-top: 2rem;
+    height: 7.6rem;
+}
+
+/* main 영역  */
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19.8rem;
+}
+
+.main .title {
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+.input-container {
+    width: 35.3rem;
+    margin-bottom: 1.8rem;
+}
+
+.input-title {
+    text-align: start;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.input-input {
+    padding: 0.7rem 0rem 0.7rem 2.1rem;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.input-input input {
+    width: 441px;
+    height: 35px;
+    font-size: 1.5rem;
+}
+
+.precaution {
+    text-align: left;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    color: #767676;
+}
+
+
+input:focus {outline:none;}
+
+.yellow-btn {
+    width: 35.5rem;
+    margin-top: 1.2rem;
+    text-align: center;
+    height: 4.8rem;
+    padding: 1.2rem 8rem;
+    background-color: #FFCC00;
+    border-radius: 1.2rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
