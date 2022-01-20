@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { withRouter, Link } from 'react-router-dom'
+import { withRouter } from 'react-router-dom'
 
 //이름, 전화번호(인증), 아이디, 비밀번호, 비밀번호확인(?)
 function SignUpPage() {
@@ -41,49 +41,23 @@ function SignUpPage() {
     <div>
       <form>
         <label>이름</label>
-        <input
-          name="name"
-          type="text"
-          value={Name}
-          onChange={onNameHandler}
-        ></input>
+        <input name="name" type="text" value={Name} onChange={onNameHandler}></input>
 
         <label>전화번호</label>
-        <input
-          name="phoneNumber"
-          value={PhoneNum}
-          onChange={onPhoneNumHandler}
-        ></input>
+        <input name="phoneNumber" value={PhoneNum} onChange={onPhoneNumHandler}></input>
 
         <label>아이디</label>
         <input name="id" value={Id} onChange={onIdHandler}></input>
 
         <label>비밀번호</label>
-        <input
-          name="password"
-          type="password"
-          value={Password}
-          onChange={onPasswordHandler}
-        ></input>
+        <input name="password" type="password" value={Password} onChange={onPasswordHandler}></input>
         <label>비밀번호 확인</label>
-        <input
-          name="confirmPassword"
-          type="password"
-          value={ConfirmPassword}
-          onChange={onConfirmPasswordHandler}
-        ></input>
+        <input name="confirmPassword" type="password" value={ConfirmPassword} onChange={onConfirmPasswordHandler}></input>
 
-        <div>
-          <button type="submit" onSubmit={onSubmit}>
-            계속하기
-          </button>
-        </div>
+        <div><button type="submit" onSubmit={onSubmit}>계속하기</button></div>
       </form>
-      <Link to="/">
-        <button>뒤로가기</button>
-      </Link>
     </div>
-  );
+  )
 }
 
-export default withRouter(SignUpPage)
+export default SignUpPage

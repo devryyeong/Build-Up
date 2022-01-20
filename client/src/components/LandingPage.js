@@ -1,18 +1,11 @@
-import React from "react";
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react'
 
-const LandingPage = () => {
+function LandingPage() {
   return (
     <div>
-      <h1>랜딩 페이지</h1>
-      <Link to="/login">
-        <button>로그인</button>
-      </Link>
-      <Link to="/signup">
-        <button>회원가입하러 가기</button>
-      </Link>
+      LandingPage~
     </div>
-  );
-};
+  )
+}
 
-export default LandingPage;
+export default LandingPage
