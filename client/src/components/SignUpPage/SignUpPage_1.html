@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUpPage_1.css">
+    <title>Sign Up - 빌드업</title>
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'zba5cge',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="#" id="logo"><img src="/client/src/components/imgs/icon_buildup.png" alt="main"></a>
+        </header>
+        <section id="sign_up">
+            <h1 class="title">회원가입</h1>
+            <form>
+            <div id="name_area">
+                <label for="name">이름</label>
+                <input type="text" id="name">
+            </div>
+            <div id="id_area">
+                <label for="id">아이디</label>
+                <input type="email" id="id">
+            </div> 
+            <div id="phone_area">
+                <label for="phone">전화번호</label>
+                <input type="tel" id="phone">
+                <input type="button" id="phone_btn" value="전화번호 인증">
+            </div>
+            <div id="password_area">
+                <label for="password">비밀번호</label>
+                <input type="password" id="password" minlength="8" maxlength="16">
+                <p>8 ~ 16자 이내, 영문과 숫자 조합</p>
+            </div>
+            <div id="check_password_area">
+                <label for="check_password">비밀번호 확인</label>
+                <input type="password" id="check_password" minlength="8" maxlength="16">
+                <p>비밀번호 일치</p>
+            </div>
+                <input type="submit" id="sign_up_btn" value="계속하기">
+            </form>
+            <div id="textbox">
+            <p>계속하기를 누름으로써 사용자는 빌드업의 <a href="#">사용 약관</a> 및 <a href="#">개인 정보 고지 사항</a>에 동의하는 것입니다.</p>  
+            <p>계정이 이미 있다면 <a href="/client/src/components/LoginPage/LoginPage.html">로그인</a> 하러 가기</p>
+        </div>
+        </section>
+    </main>
+    
+</body>
+</html>

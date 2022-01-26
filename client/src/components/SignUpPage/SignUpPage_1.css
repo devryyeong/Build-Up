@@ -1,0 +1,224 @@
+@import url(/client/src/components/reset.css);
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: ffffff;
+
+    font-family: noto-sans-cjk-kr,sans-serif;
+}
+/* 입력창 테두리 */
+input {
+    background: #FFFFFF;
+
+    border: hidden;
+    border-bottom: 0.1rem solid #DBDBDB;
+}
+
+/* 라벨 텍스트 */
+label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+/* 로고 */
+#logo {
+    position: absolute;
+    width: 7.6rem;
+    height: 7.6rem;
+    left: 3.7rem;
+    top: 2rem;
+}
+
+/* p 태그 텍스트 */
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+
+    color: #767676;
+}
+
+/* 타이틀 (회원가입) */
+
+.title {
+    position: absolute;
+    width: 35.5rem;
+    height: 3.6rem;
+    left: 54.2rem;
+    top: 14.4rem;
+
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* 이름 */
+#name_area {
+    position: absolute;
+    width: 35.5rem;
+    height: 8rem;
+    left: 54.2rem;
+    top: 21.8rem;
+}
+
+#name {
+    position: absolute;
+    width: 35.5rem;
+    height: 5rem;
+    left: 0px;
+    top: 3.5rem;
+}
+
+/* 아이디 */
+#id_area {
+    position: absolute;
+    width: 35.5rem;
+    height: 8rem;
+    left: 54.2rem;
+    top: 31.6rem;
+}
+
+#id {
+    position: absolute;
+    width: 35.5rem;
+    height: 5rem;
+    left: 0px;
+    top: 3.5rem;
+}
+
+/* 전화번호 */
+#phone_area {
+    position: absolute;
+    width: 35.5rem;
+    height: 8rem;
+    left: 54.2rem;
+    top: 41.4rem;
+}
+
+#phone {
+    position: absolute;
+    width: 20.6rem;
+    height: 4.9rem;
+    left: 0rem;
+    top: 3.5rem;
+    
+}
+
+#phone_btn {
+    position: absolute;
+    width: 14rem;
+    height: 4.9rem;
+    left: 21.5rem;
+    top: 3.5rem;
+
+    background-color: #FFCC00;
+    border-radius: 0.5rem;
+    border: hidden;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #FFFFFF;
+}
+
+
+
+/* 비밀번호 */
+#password_area {
+    position: absolute;
+    width: 35.5rem;
+    height: 9.6rem;
+    left: 54.2rem;
+    top: 51.2rem;
+}
+
+#password {
+    position: absolute;
+    width: 35.5rem;
+    height: 4.9rem;
+    left: 0px;
+    top: 3.5rem;
+}
+
+/* 비밀번호 하단 텍스트 */
+#password_area p {
+    position: absolute;
+    width: 35.5rem;
+    height: 1.6rem;
+    left: 0rem;
+    top: 9rem;
+
+}
+
+/* 비밀번호 확인 */
+#check_password_area {
+    position: absolute;
+    width: 35.5rem;
+    height: 9.6rem;
+    left: 54.2rem;
+    top: 62.6rem;
+
+}
+
+#check_password {
+    position: absolute;
+    width: 35.5rem;
+    height: 5rem;
+    left: 0px;
+    top: 3.5rem;
+}
+
+/* 비밀번호 확인 하단 텍스트 */
+#check_password_area p {
+    position: absolute;
+    width: 35.5rem;
+    height: 1.6rem;
+    left: 0rem;
+    top: 9rem;
+
+}
+
+/* 계속하기 버튼 */
+#sign_up_btn {
+    position: absolute;
+    width: 35.5rem;
+    height: 4.8rem;
+    left: 54.2rem;
+    top: 76.6rem;
+
+    background: #FFCC00;
+    border-radius: 1.5rem;
+    border: hidden;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #FFFFFF;
+}
+
+/* 최하단 텍스트 박스 */
+#textbox {
+    position: absolute;
+    width: 35.5rem;
+    height: 6.2rem;
+    left: 54.2rem;
+    top: 82.8rem;
+}
+
+#textbox > p {
+    margin-bottom: 1rem;
+}

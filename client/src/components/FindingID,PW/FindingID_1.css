@@ -1,0 +1,119 @@
+@import url(/client/src/components/reset.css);
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: ffffff;
+
+    font-family: noto-sans-cjk-kr,sans-serif;
+}
+
+/* 입력창 테두리 */
+input {
+    background: #FFFFFF;
+
+    border: hidden;
+    border-bottom: 0.1rem solid #DBDBDB;
+}
+
+/* 라벨 폰트 */
+label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+/* 버튼 텍스트, 배경색 */
+#phone_btn, #finding_id_btn {
+    background-color: #FFCC00;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: #FFFFFF;
+}
+ /* 로고 */
+#logo {
+    position: absolute;
+    width: 7.6rem;
+    height: 7.6rem;
+    left: 3.7rem;
+    top: 2rem;
+}
+
+/* 타이틀 (아이디 찾기) */
+.title {
+    position: absolute;
+    width: 35.5rem;
+    height: 3.6rem;
+    left: 54.3rem;
+    top: 34.3rem;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+
+    text-align: center;
+}
+
+/* 이름 */
+#name_area {
+    position: absolute;
+    width: 35.5rem;
+    height: 8rem;
+    left: 54.3rem;
+    top: 42.5rem;
+}
+
+#name {
+    position: absolute;
+    width: 35.5rem;
+    height: 5rem;
+    left: 0px;
+    top: 3.5rem;
+}
+
+/* 전화번호 */
+#phone_area {
+    position: absolute;
+    width: 35.5rem;
+    height: 8rem;
+    left: 54.3rem;
+    top: 52.3rem;
+}
+
+#phone {
+    position: absolute;
+    width: 20.5rem;
+    height: 4.9rem;
+    left: 0px;
+    top: 3.5rem;
+}
+
+/* 버튼 */
+#phone_btn {
+    position: absolute;
+    width: 14rem;
+    height: 4.9rem;
+    left: 21.5rem;
+    top: 3.1rem;
+
+    border-radius: 0.5rem;
+}
+
+#finding_id_btn {
+    position: absolute;
+    width: 35.5rem;
+    height: 4.9rem;
+    left: 54.3rem;
+    top: 63.3rem;
+
+    border-radius: 1.5rem;
+}

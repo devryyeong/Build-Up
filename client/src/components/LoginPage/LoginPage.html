@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - 빌드업</title>
+    <link rel="stylesheet" href="LoginPage.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'zba5cge',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+</head>
+<body>
+    <main>
+        <section>
+            <h1 class="title">로그인</h1>
+            <from>
+                <input type="text" id="id" placeholder="  아이디를 입력해 주세요"></input>
+                <input type="text" id="password" placeholder="  비밀번호를 입력해 주세요"></input>
+
+                <label id=auto_login_border>
+                    <input type="checkbox" id="auto_login" name="auto_login" value="y">
+                    자동 로그인
+                </label>
+                
+                <a href="/client/src/components/FindingID,PW/FindingID_1.html" id="find_id">아이디 찾기</a>
+                <p id="bar">ㅣ</p>
+                <a href="/client/src/components/FindingID,PW/FindingPW_1.html" id="find_password">비밀번호 찾기</a>
+
+                <input type="submit" id="login_btn" value="로그인">
+            </from>
+            <a href="#"><div id="login_google">
+                <img src="/client/src/components/imgs/icon_google.png" alt="google" id="img_google"><span>구글로 계속하기</span>
+            </div></a>
+            <a href="#"><div id="login_naver">
+                <img src="/client/src/components/imgs/icon_naver.png" alt="naver" id="img_naver"><span>네이버로 계속하기</span>
+            </div></a>
+        </section>
+    </main>
+</body>
+</html>

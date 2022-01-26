@@ -1,0 +1,185 @@
+@import url(/client/src/components/reset.css);
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: ffffff;
+
+    font-family: noto-sans-cjk-kr,sans-serif;
+}
+
+/* 입력창 테두리 */
+input {
+    background: #FFFFFF;
+
+    border: hidden;
+    border-bottom: 0.1rem solid #DBDBDB;
+}
+
+/* 자동로그인, 아이디 비번 찾기 텍스트 */
+#auto_login_border, #find_id, #bar, #find_password {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+#id, #password {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+
+a {
+    text-decoration: none;
+} 
+
+/* 타이틀 (로그인) */
+.title {
+    position: absolute;
+    width: 46.2rem;
+    height: 3.6rem;
+    left: 48.9rem;
+    top: 32rem;
+
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* 아이디 */
+#id{
+    position: absolute;
+    width: 35.5rem;
+    height: 4.9rem;
+    left: 54.2rem;
+    top: 40.8rem;
+}
+
+/* 비밀번호 */
+#password {
+    position: absolute;
+    width: 35.5rem;
+    height: 4.9rem;
+    left: 54.2rem;
+    top: 47.5rem;
+}
+
+/* 자동 로그인 */
+#auto_login_border {
+
+    position: absolute;
+    width: 8.8rem;
+    height: 1.8rem;
+    left: 54.2rem;
+    top: 53.9rem;
+
+    color: #767676;
+}
+
+/* 아이디 찾기 */
+#find_id {
+    position: absolute;
+    width: 5.8rem;
+    height: 1.8rem;
+    left: 74.1rem;
+    top: 54rem;
+
+    color: #767676;
+
+}
+
+/* 구분선 */
+#bar {
+    position: absolute;
+    width: 1.3rem;
+    height: 2.1rem;
+    left: 80.7rem;
+    top: 53.9rem;
+
+    color: #999999;
+}
+
+/* 비밀번호 찾기 */
+#find_password {
+    position: absolute;
+    width: 6.9rem;
+    height: 1.8rem;
+    left: 82.8rem;
+    top: 54rem;
+
+    color: #767676;
+}
+
+/* Login btn */
+#login_btn {
+    position: absolute;
+    width: 35.5rem;
+    height: 4.8rem;
+    left: 54.2rem;
+    top: 59rem;
+
+    background: #FFCC00;
+    border-radius: 1.5rem;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #FFFFFF;
+
+    border: hidden;
+}
+/* 구글 , 네이버 로그인 */
+#login_google, #login_naver {
+    position: absolute;
+    width: 17.3rem;
+    height: 4.9rem;
+    top: 65.6rem;
+
+    background: #FFFFFF;
+    border: 0.1rem solid #DBDBDB;
+    border-radius: 0.5rem;
+}
+
+#login_google{
+    left: 54.2rem;
+}
+
+#login_naver {
+    left: 72.4rem;
+}
+
+/* 네이버, 구글 로그인 이미지 배치 */
+div img {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    left: 2rem;
+    top: 1.378rem;
+}
+
+/* 네이버, 구글 로그인 텍스트 */
+div span {
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2.1rem;  
+
+    color: #767676; 
+    
+
+}

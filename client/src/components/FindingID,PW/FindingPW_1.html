@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <link rel="stylesheet" href="FindingPW_1.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'zba5cge',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+    <title>Finding Password - 빌드업</title>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="#" id="logo"><img src="/client/src/components/imgs/icon_buildup.png" alt="main"></a>
+        </header>
+        <section>
+            <h1 class="title">비밀번호 찾기</h1>
+            <form>
+                <div id="name_area">
+                    <label for="name">이름</label>
+                    <input type="text" id="name">
+                </div>
+                <div id="id_area">
+                    <label for="id">아이디</label>
+                    <input type="email" id="id">
+                </div> 
+                <div id="phone_area">
+                    <label for="phone">전화번호</label>
+                    <input type="tel" id="phone">
+                    <input type="button" id="phone_btn" value="전화번호 인증">
+                </div>
+                <input type="submit" id="finding_pw_btn" value="계속하기">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
