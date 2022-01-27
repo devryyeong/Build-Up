@@ -54,4 +54,4 @@ router.post("/setPw", (req, res, next) => {
   return res.json({});
 });
 
-router.module.exports = router;
+module.exports = router;

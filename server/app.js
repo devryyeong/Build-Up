@@ -3,7 +3,10 @@ const http = require("http");
 const morgan = require("morgan");
 
 const authRouter = require("./routes/auth");
+const smsRouter = require("./routes/sms");
 const userRouter = require("./routes/user");
+const portfolRouter = require("./routes/portfolio");
+const diaryRouter = require("./routes/diary");
 
 const app = express();
 
@@ -20,7 +23,10 @@ app.use((req, res, next) => {
 });
 
 app.use("/auth", authRouter);
+app.use("/sms", smsRouter);
 app.use("/user", userRouter);
+app.use("/portfolio", portfolRouter);
+app.use("/diary", diaryRouter);
 
 app.use((err, req, res, next) => {
   console.error(err);
