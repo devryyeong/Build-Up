@@ -22,3 +22,5 @@ router.post("/verify", (req, res, next) => {
 
   return res.json();
 });
+
+module.exports = router;
