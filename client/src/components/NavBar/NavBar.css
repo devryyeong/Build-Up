@@ -17,6 +17,7 @@
 .place-tab {
   display: flex;
   align-items: center;
+  margin-right: 37px;
 }
 
 .tab-inner {
@@ -28,20 +29,22 @@
   height: 2.25rem;
   margin-right: 1.8rem;
   text-align: center;
-
 }
 
 .txt {
-  line-height: 2.25rem;
+  line-height: 22px;
 }
 
-.yellow-btn {
+.login-btn {
+  margin-left: 39px;
+  margin-top: 20px;
   text-align: center;
-  height: 4.8rem;
-  padding: 1.2rem 8rem;
+  height: 49px;
+  width: 218px;
+  padding: 17px;
   background-color: #FFCC00;
-  border-radius: 1.2rem;
+  border-radius: 9px;
   color: white;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 15px;
 }

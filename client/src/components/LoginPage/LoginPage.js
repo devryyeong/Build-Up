@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './LoginPage.css';
+import naver from "../imgs/icon_naver.png";
+import google from "../imgs/icon_google.png";
 
 function LoginPage() {
   return (
     <div>
-        <h1 class="title">로그인</h1>
+        <h1 className="title">로그인</h1>
         <from>
             <input type="text" id="id" placeholder="  아이디를 입력해 주세요"></input>
             <input type="text" id="password" placeholder="  비밀번호를 입력해 주세요"></input>
@@ -24,12 +26,12 @@ function LoginPage() {
 
         <a href="/">
             <div id="login_google">
-            <img src="../imgs/icon_google.png" alt="google" id="img_google"/><span>구글로 계속하기</span>
+            <img src={google} alt="google" id="img_google"/><span>구글로 계속하기</span>
             </div>
         </a>
         <a href="/">
             <div id="login_naver">
-            <img src="../imgs/icon_naver.png" alt="naver" id="img_naver"/><span>네이버로 계속하기</span>
+            <img src={naver} alt="naver" id="img_naver"/><span>네이버로 계속하기</span>
             </div>
         </a>
     </div>
