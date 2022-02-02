@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
-import '../NavBar/NavBar.css'
+
+import {Link} from 'react-router-dom';
+import './NavBar.css'
+import logo from "../imgs/logo.png"
 
 function NavBar() {
   return (
     <div>
           <div class="header-area">
               <div class="place-logo">
-                  <img src={require("../imgs/logo.png")} alt="로고" class="logo"/>
+                  <img src={logo} alt="로고" class="logo"/>
+
               </div>
               <div class="place-tab">
                   <div class="tab-inner">
@@ -16,7 +20,10 @@ function NavBar() {
                       <a href="/" class="tab"><span class="txt">고객 센터</span></a>
                   </div>
                   <div class="tab-login">
-                      <button class="yellow-btn login-btn" onClick="window.location.href='localhost:3000/login'">로그인</button>
+
+                      <Link to='/login'>
+                         <button class="login-btn">로그인</button>
+                      </Link>
                   </div>
               </div>
         </div>
