@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
-<<<<<<< HEAD
-import './LandingPage.css'
-=======
+
 import {Link} from 'react-router-dom';
 import './landingpage.css'
 import catchPhrase from "../imgs/CatchPhrase.png";
 import portfolio from "../imgs/portfolio.png";
 import tree from "../imgs/tree.png";
 import mt from "../imgs/mt.png";
->>>>>>> db67f82 (img css 수정, Route 추가)
 
 function LandingPage() {
   return (
@@ -23,15 +20,12 @@ function LandingPage() {
         <div className="main-text">
             빌드업은 당신의 포트폴리오를 관리해주고 당신의 취업에 <br/> 필요한 다양한 정보들을 제공해줘요. 혼자보단 둘이 낫잖아요?
         </div>
-<<<<<<< HEAD
-        <div class="main-signup">
-            <button class="yellow-btn">회원가입하러 가기</button>
-=======
+
         <div className="main-signup">
             <Link to='/signup'><button class="yellow-btn">회원가입하러 가기</button></Link>
->>>>>>> db67f82 (img css 수정, Route 추가)
         </div>
     </div>
+
 
     <footer className="footer-area">
         <div className="footer-container">
@@ -63,6 +57,7 @@ function LandingPage() {
                     저희의 목표는 유저들의 원활한 취업 준비를 언
                     제든지 도울 준비를 하는 것이에요. 정보가 필요하면 
                     언제든지 당신에게 알려줄 준비가 되어 있어요.
+
                 </div>
             </div>
         </div>       

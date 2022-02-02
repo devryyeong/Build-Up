@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import './LoginPage.css';
 import naver from "../imgs/icon_naver.png";
 import google from "../imgs/icon_google.png";
@@ -21,8 +22,7 @@ function LoginPage() {
             <p id="bar">ㅣ</p>
             <a href="/" id="find_password">비밀번호 찾기</a>
 
-            <input type="submit" id="login_btn" value="로그인"/>
-        </from>
+
 
         <a href="/">
             <div id="login_google">
@@ -36,6 +36,7 @@ function LoginPage() {
         </a>
     </div>
   )
+
 };
 
 export default LoginPage;
