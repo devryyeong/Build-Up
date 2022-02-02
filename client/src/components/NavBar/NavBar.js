@@ -6,7 +6,7 @@ function NavBar() {
     <div>
           <div class="header-area">
               <div class="place-logo">
-                  <img src="../imgs/logo.png" alt="로고" class="logo"/>
+                  <img src={require("../imgs/logo.png")} alt="로고" class="logo"/>
               </div>
               <div class="place-tab">
                   <div class="tab-inner">
