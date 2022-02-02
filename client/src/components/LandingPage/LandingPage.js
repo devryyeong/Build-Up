@@ -9,7 +9,7 @@ function LandingPage() {
 
     <div class="main">
         <div class="main-catchphrase">
-            <img src="../imgs/CatchPhrase.png" alt="catchPharse"/>
+            <img src={require("../imgs/CatchPhrase.png")} alt="catchPharse"/>
         </div>
         <div class="main-text">
             빌드업은 당신의 포트폴리오를 관리해주고 당신의 취업에 <br/> 필요한 다양한 정보들을 제공해줘요. 혼자보단 둘이 낫잖아요?
@@ -21,7 +21,7 @@ function LandingPage() {
 
     <footer class="footer-area">
         <div class="footer-container">
-            <img class="footer-img" src="../imgs/tree.png" alt="나무"/>
+            <img class="footer-img" src={require("../imgs/tree.png")} alt="나무"/>
             <div class="footer-content">
                 <div class="content-title">하루하루 출석율을 높여요</div>
                 <div class="content-content">
@@ -32,7 +32,7 @@ function LandingPage() {
             </div>
         </div>  
         <div class="footer-container">
-            <img class="footer-img" src="../imgs/portfolio.png" alt="나무"/>
+            <img class="footer-img" src={require("../imgs/portfolio.png")} alt="포트폴리오"/>
             <div class="footer-content">
                 <div class="content-title">포트폴리오를 만들어요</div>
                 <div class="content-content">
@@ -44,7 +44,7 @@ function LandingPage() {
             </div>
         </div>  
         <div class="footer-container">
-            <img class="footer-img" src="../imgs/mt.png" alt="나무"/>
+            <img class="footer-img" src={require("../imgs/mt.png")} alt="그래프"/>
             <div class="footer-content">
                 <div class="content-title">취업할 때까지 함께해요</div>
                 <div class="content-content">

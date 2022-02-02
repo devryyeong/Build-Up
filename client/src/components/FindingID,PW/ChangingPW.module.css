@@ -13,7 +13,7 @@ body {
 }
 
 /* 입력창 테두리 설정 */
-input {
+.name, .id, .phone {
     background: #FFFFFF;
 
     border: hidden;
@@ -29,7 +29,7 @@ label {
 }
 
 /* 버튼 텍스트, 배경색 */
-#phone_btn, #finding_pw_btn {
+.phone_btn, .finding_pw_btn {
     background-color: #FFCC00;
 
     font-style: normal;
@@ -65,7 +65,7 @@ label {
 }
 
 /* 이름 */
-#name_area {
+.name_area {
     position: absolute;
     width: 35.5rem;
     height: 8rem;
@@ -73,7 +73,7 @@ label {
     top: 37.6rem;
 }
 
-#name {
+.name {
     position: absolute;
     width: 35.5rem;
     height: 5rem;
@@ -82,7 +82,7 @@ label {
 }
 
 /* 아이디 */
-#id_area {
+.id_area {
     position: absolute;
     width: 35.5rem;
     height: 8rem;
@@ -90,7 +90,7 @@ label {
     top: 47.4rem;
 }
 
-#id {
+.id {
     width: 35.5rem;
     height: 5rem;
     left: 0px;
@@ -98,7 +98,7 @@ label {
 }
 
 /* 전화번호 */
-#phone_area {
+.phone_area {
     position: absolute;
     width: 35.5rem;
     height: 8rem;
@@ -106,7 +106,7 @@ label {
     top: 57.2rem;
 }
 
-#phone {
+.phone {
     position: absolute;
     width: 20.5rem;
     height: 4.9rem;
@@ -115,7 +115,7 @@ label {
 }
 
 /* 버튼 */
-#phone_btn {
+.phone_btn {
     position: absolute;
     width: 14rem;
     height: 4.9rem;
@@ -125,7 +125,7 @@ label {
     border-radius: 0.5rem;
 }
 
-#finding_pw_btn {
+.finding_pw_btn {
     position: absolute;
     width: 35.5rem;
     height: 4.9rem;
@@ -133,4 +133,83 @@ label {
     top: 68.2rem;
 
     border-radius: 1.5rem;
+}
+
+/* PW2 */
+.main2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19.8rem;
+}
+
+.main2 .title {
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.input_container {
+    width: 35.3rem;
+    margin-bottom: 1.8rem;
+}
+
+.input_title {
+    text-align: start;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.input_input {
+    padding: 0.7rem 0rem 0.7rem 2.1rem;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.input_input input {
+    width: 441px;
+    height: 35px;
+    font-size: 1.5rem;
+}
+
+.precaution {
+    text-align: left;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    color: #767676;
+}
+
+
+input:focus {outline:none;}
+
+
+
+
+/* PW3 */
+.main3 { 
+    margin-top: 34.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3 .title {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    margin-bottom: 2.7rem;
+}
+
+.yellow_btn {
+    width: 35.5rem;
+    text-align: center;
+    height: 4.8rem;
+    padding: 1.3rem 8rem;
+    background-color: #FFCC00;
+    border-radius: 1.5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
 }

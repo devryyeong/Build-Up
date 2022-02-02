@@ -1,9 +1,15 @@
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import LoginPage from "./components/LoginPage/LoginPage"
+import LoginPage from "./components/LoginPage/LoginPage";
 import SignUp from "./components/SignUpPage/SignUpPage";
 import LandingPage from "./components/LandingPage/LandingPage";
 import NavBar from "./components/NavBar/NavBar";
+import FindingID from "./components/FindingID,PW/FindingID";
+import FindingID2 from "./components/FindingID,PW/FindingID2";
+import ChangingPW from "./components/FindingID,PW/ChangingPW";
+import ChangingPW2 from "./components/FindingID,PW/ChangingPW2";
+import ChangingPW3 from "./components/FindingID,PW/ChangingPW3";
+
 
 function App() {
   return (
@@ -12,8 +18,13 @@ function App() {
       <NavBar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/login" element={<LoginPage />}/>
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/findingid" element={<FindingID />} />
+          <Route path="/findingid2" element={<FindingID2 />} />
+          <Route path="/changingpw" element={<ChangingPW />} />
+          <Route path="/changingpw2" element={<ChangingPW2 />} />
+          <Route path="/changingpw3" element={<ChangingPW3 />} />
         </Routes>
       </BrowserRouter>
     </div>
