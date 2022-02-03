@@ -1,11 +1,7 @@
 import React, { useState } from 'react'
-<<<<<<< HEAD
-import { withRouter } from 'react-router-dom'
-=======
 import './SignUpPage_1.css';
 import Layout from '../Layout/Layout';
 import { withRouter, Link } from 'react-router-dom'
->>>>>>> db67f82 (img css 수정, Route 추가)
 
 //이름, 전화번호(인증), 아이디, 비밀번호, 비밀번호확인
 function SignUpPage() {
@@ -44,12 +40,8 @@ function SignUpPage() {
 
 
   return (
-<<<<<<< HEAD
-    <div>
-=======
     <Layout>
       <h1 className="title">회원가입</h1>
->>>>>>> db67f82 (img css 수정, Route 추가)
       <form>
         <label>이름</label>
         <input name="name" type="text" value={Name} onChange={onNameHandler}></input>
@@ -67,23 +59,18 @@ function SignUpPage() {
 
         <div><button type="submit" onSubmit={onSubmit}>계속하기</button></div>
       </form>
-<<<<<<< HEAD
-    </div>
-  )
-=======
       <div id="textbox">
         <p>
           계속하기를 누름으로써 사용자는 빌드업의 <a href="#">사용 약관</a> 및{" "}
           <a href="#">개인 정보 고지 사항</a>에 동의하는 것입니다.
         </p>
         <p>
-          계정이 이미 있다면 <a href="../LoginPage/LoginPage.html">로그인</a>{" "}
+          계정이 이미 있다면 <Link to='/login'>로그인</Link>{" "}
           하러 가기
         </p>
       </div>
     </Layout>
   );
->>>>>>> db67f82 (img css 수정, Route 추가)
 }
 
 export default SignUpPage
