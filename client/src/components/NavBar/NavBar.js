@@ -22,7 +22,7 @@ function NavBar() {
                   <div class="tab-login">
 
                       <Link to='/login'>
-                         <button class="login-btn">로그인</button>
+                        <button class="login-btn">로그인</button>
                       </Link>
                   </div>
               </div>
