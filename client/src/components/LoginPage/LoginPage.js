@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import "./LoginPage.css";
+import "./LoginPage.module.css";
 import naver from "../imgs/icon_naver.png";
 import google from "../imgs/icon_google.png";
 
