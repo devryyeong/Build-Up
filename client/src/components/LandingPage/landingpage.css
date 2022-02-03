@@ -4,49 +4,10 @@ html {
     font-size: 10px;
 
 }
-
 .x {
     position: relative;
     font-size: 1.5rem;
 }
-<<<<<<< HEAD
-
-/* header 부분 */
-.header-area {
-    display: flex;
-    justify-content: space-between;
-    margin: 0rem 3.6rem;
-}
-
-.logo {
-    width: 7.5rem;
-    height: auto;
-    margin-top: 1.95rem;
-    display: flex;
-}
-
-.place-tab {
-    display: flex;
-    align-items: center;
-}
-
-.tab-inner {
-    display: flex;
-}
-
-.tab {
-    width: 9.75rem;
-    height: 2.25rem;
-    margin-right: 1.8rem;
-    text-align: center;
-
-}
-
-.txt {
-    line-height: 2.25rem;
-}
-=======
->>>>>>> db67f82 (img css 수정, Route 추가)
 
 .yellow-btn {
     text-align: center;
