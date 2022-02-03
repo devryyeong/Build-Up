@@ -23,10 +23,10 @@ body {
 .auto_login_border, .find_id, .bar, .find_password {
     font-style: normal;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8rem;
 }
- 
+
 /*인풋 밑줄*/
 .id, .password {
     background: #FFFFFF;
