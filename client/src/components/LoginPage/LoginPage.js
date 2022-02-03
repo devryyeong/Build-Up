@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-import React from "react";
-import { Link } from "react-router-dom";
-import './LoginPage.module.css';
-import naver from "../imgs/icon_naver.png";
-import google from "../imgs/icon_google.png";
-
-function LoginPage() {
-  return (
-    <div>
-        <h1 className="title">로그인</h1>
-        <form>
-            <input type="text" id="id" placeholder="  아이디를 입력해 주세요"></input>
-            <input type="text" id="password" placeholder="  비밀번호를 입력해 주세요"></input>
-
-            <label id="auto_login_border">
-                <input type="checkbox" id="auto_login" name="auto_login" value="y" />
-                자동 로그인
-            </label>
-            
-            <a href="/" id="find_id">아이디 찾기</a>
-            <p id="bar">ㅣ</p>
-            <a href="/" id="find_password">비밀번호 찾기</a>
-            <input type="submit" id="login_btn" value="로그인"/>
-        </form>
-=======
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './LoginPage.module.css';
@@ -53,7 +27,6 @@ function LoginPage() {
           />
           자동 로그인
         </label>
->>>>>>> b3eb913f15933257a31587f6dc47c5c0c99b864a
 
         <a href="/findingid" className={styles.find_id}>
           아이디 찾기
