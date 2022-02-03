@@ -1,13 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import "./signup2.css";
-import Layout from "../Layout/Layout";
+import Layout from '../Layout/Header.js';
 import profile from "../imgs/Profile.png";
 
 const SignUpPage2 = () => {
   return (
     <div>
-      <Layout>
+      {/* <Layout/> */}
         <div className="main">
           <h1 className="title">회원가입</h1>
           <div className="profile-image">
@@ -30,7 +30,6 @@ const SignUpPage2 = () => {
             <button className="yellow-btn signup-btn">가입하기</button>
           </Link>
         </div>
-      </Layout>
     </div>
   );
 };
