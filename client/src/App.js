@@ -5,13 +5,17 @@ import SignUpPage from "./components/SignUpPage/SignUpPage";
 import SignUpPage2 from "./components/SignUpPage/SignUpPage2";
 import SignUpSuccess from "./components/SignUpPage/SignUpSuccess";
 import LandingPage from "./components/LandingPage/LandingPage";
-import NavBar from "./components/NavBar/NavBar";
+import FindingID from "./components/FindingID,PW/FindingID";
+import FindingID2 from "./components/FindingID,PW/FindingID2";
+import ChangingPW from "./components/FindingID,PW/ChangingPW";
+import ChangingPW2 from "./components/FindingID,PW/ChangingPW2";
+import ChangingPW3 from "./components/FindingID,PW/ChangingPW3";
+
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-        <NavBar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
@@ -23,6 +27,7 @@ function App() {
           />
         </Routes>
       </BrowserRouter>
+      <SignUpPage2 />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import "./signup2.css";
-import Layout from "../Layout/Layout";
+import { Link } from "react-router-dom";
+import "../CSS/signup2.css";
+import Layout from "../Layout/Header.js";
 import profile from "../imgs/Profile.png";
 
 const SignUpPage2 = () => {

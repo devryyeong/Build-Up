@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import './LoginPage.css';
-import naver from "../imgs/icon_naver.png";
-import google from "../imgs/icon_google.png";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from '../CSS/LoginPage.module.css';
+import google from '../imgs/icon_google.png';
+import naver from '../imgs/icon_naver.png';
 
 function LoginPage() {
   return (
