@@ -1,4 +1,4 @@
-@import url("../reset2.css");
+@import url("./reset2.css");
 /* header 영역 */
 
 html {
@@ -14,8 +14,8 @@ html {
 }
 
 /* main 영역 */
-.main { 
-    margin-top: 34.2rem;
+.main {
+    margin-top: 26.6rem; 
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -26,8 +26,16 @@ html {
 .main .title {
     font-weight: 700;
     font-size: 2.4rem;
-    line-height: 3.5rem;
-    margin-bottom: 2.7rem;
+    margin-bottom: 5.4rem;
+}
+
+.main .profile-image {
+    margin-bottom: 1.8rem;
+}
+
+.profile-image img {
+    width: 10.8rem;
+    height: auto;
 }
 
 .yellow-btn {
@@ -41,5 +49,4 @@ html {
     font-weight: 700;
     font-size: 1.5rem;
 }
-
 

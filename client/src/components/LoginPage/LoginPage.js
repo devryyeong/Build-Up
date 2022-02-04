@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './LoginPage.module.css';
+import styles from '../CSS/LoginPage.module.css';
 
 function LoginPage() {
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SignUpPage_1.css";
+import "../CSS/SignUpPage_1.css";
 import Layout from "../Layout/Layout";
 import { withRouter, Link } from "react-router-dom";
 
@@ -76,7 +76,7 @@ function SignUpPage() {
             ></input>
             <p>비밀번호 일치</p>
           </div>
-          <input type="submit" id="sign_up_btn" value="계속하기"></input>
+          <Link to="/signup/signup2"><input type="submit" id="sign_up_btn" value="계속하기"></input></Link>
         </form>
         <div id="textbox">
           <p>

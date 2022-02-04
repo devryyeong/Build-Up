@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './ChangingPW.module.css'
+import styles from '../CSS/ChangingPW.module.css';
 
 function ChangingPW() {
   return (

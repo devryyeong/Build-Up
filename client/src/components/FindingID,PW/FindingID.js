@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from "./FindingID.module.css"
+import styles from "../CSS/FindingID.module.css"
 
 function FindingID(){
   return (

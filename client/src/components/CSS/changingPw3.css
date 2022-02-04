@@ -1,4 +1,4 @@
-@import url("../reset2.css");
+@import url("./reset2.css");
 /* header 영역 */
 
 html {
@@ -15,7 +15,7 @@ html {
 
 /* main 영역 */
 .main { 
-    margin-top: 32.6rem;
+    margin-top: 34.2rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -42,16 +42,4 @@ html {
     font-size: 1.5rem;
 }
 
-.precaution {
-    text-align: start;
-    line-height: 1.6rem;
-    font-size: 1.1rem;
-    color: #767676;
-    width: 35.5rem;
-    margin-top: 1.7rem;
-}
-
-.precaution span {
-    color: #0099FF;
-}
 

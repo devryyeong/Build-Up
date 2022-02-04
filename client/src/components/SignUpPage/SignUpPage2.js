@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./signup2.css";
+import "../CSS/signup2.css";
 import Layout from "../Layout/Header.js";
 import profile from "../imgs/Profile.png";
 
