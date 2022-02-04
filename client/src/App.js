@@ -34,7 +34,6 @@ function App() {
           <Route path="/changingpw3" element={<ChangingPW3 />} />
         </Routes>
       </BrowserRouter>
-      <SignUpPage2 />
     </div>
   );
 }
