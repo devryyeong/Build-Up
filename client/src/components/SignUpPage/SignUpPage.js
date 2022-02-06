@@ -39,7 +39,7 @@ function SignUpPage() {
   };
 
   return (
-    <Layout>
+    // <Layout>
       <div>
         <h1 class="title">회원가입</h1>
         <form>
@@ -89,7 +89,7 @@ function SignUpPage() {
           </p>
         </div>
       </div>
-    </Layout>
+    // </Layout>
   );
 }
 

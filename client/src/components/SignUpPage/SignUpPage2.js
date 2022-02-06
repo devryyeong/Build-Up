@@ -6,7 +6,7 @@ import profile from "../imgs/Profile.png";
 
 const SignUpPage2 = () => {
   return (
-    <Layout>
+    // <Layout>
       <div>
         <div className="main">
           <h1 className="title">회원가입</h1>
@@ -31,7 +31,7 @@ const SignUpPage2 = () => {
           </Link>
         </div>
       </div>
-    </Layout>
+    // </Layout>
   );
 };
 

@@ -13,6 +13,7 @@ import FindingID2 from "./components/FindingID,PW/FindingID2";
 import ChangingPW from "./components/FindingID,PW/ChangingPW";
 import ChangingPW2 from "./components/FindingID,PW/ChangingPW2";
 import ChangingPW3 from "./components/FindingID,PW/ChangingPW3";
+import Diary from './components/Diary/Diary';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
 
-          <Route path="/login" element={<LoginPage />}/>
+          <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/signup/signup2" element={<SignUpPage2 />} />
           <Route
@@ -35,6 +36,7 @@ function App() {
           <Route path="/changingpw" element={<ChangingPW />} />
           <Route path="/changingpw2" element={<ChangingPW2 />} />
           <Route path="/changingpw3" element={<ChangingPW3 />} />
+          <Route path="/diary" element={<Diary />} />
         </Routes>
       </BrowserRouter>
     </div>

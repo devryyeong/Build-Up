@@ -59,6 +59,7 @@ function LoginPage() {
           <span>네이버로 계속하기</span>
         </div>
       </a>
+
     </div>
   );
 }
