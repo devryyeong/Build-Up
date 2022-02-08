@@ -5,39 +5,38 @@ import { withRouter, Link } from "react-router-dom";
 
 //이름, 전화번호(인증), 아이디, 비밀번호, 비밀번호확인
 function SignUpPage() {
-  const [Name, setName] = useState("")
-  const [PhoneNum, setPhoneNum] = useState("")
-  const [Id, setId] = useState("")
-  const [Password, setPassword] = useState("")
-  const [ConfirmPassword, setConfirmPassword] = useState("")
+  const [Name, setName] = useState("");
+  const [PhoneNum, setPhoneNum] = useState("");
+  const [Id, setId] = useState("");
+  const [Password, setPassword] = useState("");
+  const [ConfirmPassword, setConfirmPassword] = useState("");
 
-  const onNameHandler=(e)=>{
-    setName(e.currentTarget.value)
-  }
+  const onNameHandler = (e) => {
+    setName(e.currentTarget.value);
+  };
 
-  const onPhoneNumHandler=(e)=>{
-    setPhoneNum(e.currentTarget.value)
-  }
+  const onPhoneNumHandler = (e) => {
+    setPhoneNum(e.currentTarget.value);
+  };
 
-  const onIdHandler=(e)=>{
-    setId(e.currentTarget.value)
-  }
+  const onIdHandler = (e) => {
+    setId(e.currentTarget.value);
+  };
 
-  const onPasswordHandler=(e)=>{
-    setPassword(e.currentTarget.value)
-  }
+  const onPasswordHandler = (e) => {
+    setPassword(e.currentTarget.value);
+  };
 
-  const onConfirmPasswordHandler=(e)=>{
-    setConfirmPassword(e.currentTarget.value)
-  }
+  const onConfirmPasswordHandler = (e) => {
+    setConfirmPassword(e.currentTarget.value);
+  };
 
-  const onSubmit=(e)=>{
-    e.preventDefault()
-    if(Password!==ConfirmPassword){
-      return alert ('비밀번호를 한번 더 확인해주세요!')
+  const onSubmit = (e) => {
+    e.preventDefault();
+    if (Password !== ConfirmPassword) {
+      return alert("비밀번호를 한번 더 확인해주세요!");
     }
-  }
-
+  };
 
   return (
     <Layout>
@@ -77,7 +76,7 @@ function SignUpPage() {
             ></input>
             <p>비밀번호 일치</p>
           </div>
-          <Link to="/signup/signup2"><input type="submit" id="sign_up_btn" value="계속하기"></input></Link>
+          <input type="submit" id="sign_up_btn" value="계속하기"></input>
         </form>
         <div id="textbox">
           <p>
@@ -94,4 +93,4 @@ function SignUpPage() {
   );
 }
 
-export default SignUpPage
+export default SignUpPage;

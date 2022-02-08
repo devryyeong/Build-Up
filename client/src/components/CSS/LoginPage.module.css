@@ -12,23 +12,28 @@ body {
     font-family: noto-sans-cjk-kr,sans-serif;
 }
 
-/* 입력창 테두리 */
-input {
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+/* 자동로그인, 아이디 비번 찾기 텍스트 */
+.auto_login_border, .find_id, .bar, .find_password {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+/*인풋 밑줄*/
+.id, .password {
     background: #FFFFFF;
 
     border: hidden;
     border-bottom: 0.1rem solid #DBDBDB;
-}
 
-/* 자동로그인, 아이디 비번 찾기 텍스트 */
-#auto_login_border, #find_id, #bar, #find_password {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-}
-
-#id, #password {
     font-style: normal;
     font-weight: normal;
     font-size: 1.4rem;
@@ -57,16 +62,16 @@ a {
 }
 
 /* 아이디 */
-#id{
+.id {
     position: absolute;
     width: 35.5rem;
     height: 4.9rem;
     left: 54.2rem;
-    top: 40.8rem;
+    top: 40rem;
 }
 
 /* 비밀번호 */
-#password {
+.password {
     position: absolute;
     width: 35.5rem;
     height: 4.9rem;
@@ -75,7 +80,7 @@ a {
 }
 
 /* 자동 로그인 */
-#auto_login_border {
+.auto_login_border {
 
     position: absolute;
     width: 8.8rem;
@@ -87,7 +92,7 @@ a {
 }
 
 /* 아이디 찾기 */
-#find_id {
+.find_id {
     position: absolute;
     width: 5.8rem;
     height: 1.8rem;
@@ -99,7 +104,7 @@ a {
 }
 
 /* 구분선 */
-#bar {
+.bar {
     position: absolute;
     width: 1.3rem;
     height: 2.1rem;
@@ -110,7 +115,7 @@ a {
 }
 
 /* 비밀번호 찾기 */
-#find_password {
+.find_password {
     position: absolute;
     width: 6.9rem;
     height: 1.8rem;
@@ -121,7 +126,7 @@ a {
 }
 
 /* Login btn */
-#login_btn {
+.login_btn {
     position: absolute;
     width: 35.5rem;
     height: 4.8rem;
@@ -140,7 +145,7 @@ a {
     border: hidden;
 }
 /* 구글 , 네이버 로그인 */
-#login_google, #login_naver {
+.login_google, .login_naver {
     position: absolute;
     width: 17.3rem;
     height: 4.9rem;
@@ -151,11 +156,11 @@ a {
     border-radius: 0.5rem;
 }
 
-#login_google{
+.login_google{
     left: 54.2rem;
 }
 
-#login_naver {
+.login_naver {
     left: 72.4rem;
 }
 
@@ -169,7 +174,7 @@ div img {
 }
 
 /* 네이버, 구글 로그인 텍스트 */
-div span {
+.sns_login span {
     position: relative;
     left: 3rem;
     top: 1rem;
