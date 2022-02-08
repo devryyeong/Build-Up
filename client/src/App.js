@@ -21,7 +21,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/signup/signup2" element={<SignUpPage2 />} />
@@ -37,7 +36,6 @@ function App() {
           <Route path="/diary" element={<Diary />} />
         </Routes>
       </BrowserRouter>
-      <SignUpPage2 />
     </div>
   );
 }

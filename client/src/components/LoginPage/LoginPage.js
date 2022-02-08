@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './LoginPage.module.css';
+import styles from '../CSS/LoginPage.module.css';
+import Layout from '../Layout/Layout';
 
 function LoginPage() {
   return (
+    <Layout>
     <div className={styles.main}>
       <h1 className={styles.title}>로그인</h1>
       <from>
@@ -61,6 +63,7 @@ function LoginPage() {
       </a>
 
     </div>
+    </Layout>
   );
 }
 
