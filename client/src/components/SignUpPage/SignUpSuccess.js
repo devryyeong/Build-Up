@@ -1,6 +1,6 @@
 import React from "react";
 import "../CSS/signup_success.css";
-import Layout from "../Layout/Header.js";
+import Layout from "../Layout/Layout";
 import {Link} from 'react-router-dom';
 
 const SignUpSucess = () => {

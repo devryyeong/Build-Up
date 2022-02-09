@@ -26,7 +26,7 @@ const SignUpPage2 = () => {
               <input type="text" placeholder="yyyy/mm/dd" />
             </div>
           </div>
-          <Link to="/signupsucess">
+          <Link to="/signupsuccess">
             <button className="yellow-btn signup-btn">가입하기</button>
           </Link>
         </div>
