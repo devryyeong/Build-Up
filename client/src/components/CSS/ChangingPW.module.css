@@ -145,9 +145,10 @@ label {
     margin-top: 19.8rem;
 }
 
-.main2 .title {
+.title2 {
     font-weight: 700;
     font-size: 2.4rem;
+    margin-bottom: 3.0rem;
 }
 
 .input_container {
@@ -195,7 +196,7 @@ input:focus {outline:none;}
     align-items: center;
 }
 
-.main3 .title {
+.title3 {
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 3.5rem;

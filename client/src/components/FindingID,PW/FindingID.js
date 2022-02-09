@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from "../CSS/FindingID.module.css"
+import Layout from '../Layout/Layout';
 
 function FindingID(){
   return (
-  <div>
+  <Layout>
     <div>
         <h1 className={styles.title1}>아이디 찾기</h1>
         <form>
@@ -17,11 +18,11 @@ function FindingID(){
                 <label>전화번호
                 <input type="tel" className={styles.phone}/></label>
                 <input type="button" className={styles.phone_btn} value="전화번호 인증"/>
-                <button type="submit" className={styles.finding_id_btn}>아이디 찾기</button>
+                <Link to="/findingid2"><button type="submit" className={styles.finding_id_btn}>아이디 찾기</button></Link>
             </div>
         </form>
     </div>
-  </div>
+  </Layout>
   );
 };
 

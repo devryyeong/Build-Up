@@ -22,9 +22,9 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
-          <Route path="/signup/signup2" element={<SignUpPage2 />} />
+          <Route path="/signup2" element={<SignUpPage2 />} />
           <Route
-            path="/signup/signup2/signupsucess"
+            path="=/signupsucess"
             element={<SignUpSuccess />}
           />
           <Route path="/findingid" element={<FindingID />} />
