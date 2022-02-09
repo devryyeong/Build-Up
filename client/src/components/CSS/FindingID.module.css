@@ -13,8 +13,9 @@ body {
     font-family: noto-sans-cjk-kr,sans-serif;
 }
 
+
 /* 입력창 테두리 */
-input {
+.name, .phone {
     background: #FFFFFF;
 
     border: hidden;
@@ -30,7 +31,7 @@ label {
 }
 
 /* 버튼 텍스트, 배경색 */
-#phone_btn, #finding_id_btn {
+.phone_btn, .finding_id_btn {
     background-color: #FFCC00;
 
     font-style: normal;
@@ -49,7 +50,7 @@ label {
 }
 
 /* 타이틀 (아이디 찾기) */
-.title {
+.title1 {
     position: absolute;
     width: 35.5rem;
     height: 3.6rem;
@@ -65,7 +66,7 @@ label {
 }
 
 /* 이름 */
-#name_area {
+.name_area {
     position: absolute;
     width: 35.5rem;
     height: 8rem;
@@ -73,7 +74,7 @@ label {
     top: 42.5rem;
 }
 
-#name {
+.name {
     position: absolute;
     width: 35.5rem;
     height: 5rem;
@@ -82,7 +83,7 @@ label {
 }
 
 /* 전화번호 */
-#phone_area {
+.phone_area {
     position: absolute;
     width: 35.5rem;
     height: 8rem;
@@ -90,7 +91,7 @@ label {
     top: 52.3rem;
 }
 
-#phone {
+.phone {
     position: absolute;
     width: 20.5rem;
     height: 4.9rem;
@@ -99,7 +100,7 @@ label {
 }
 
 /* 버튼 */
-#phone_btn {
+.phone_btn {
     position: absolute;
     width: 14rem;
     height: 4.9rem;
@@ -109,12 +110,55 @@ label {
     border-radius: 0.5rem;
 }
 
-#finding_id_btn {
+.finding_id_btn {
     position: absolute;
     width: 35.5rem;
-    height: 4.9rem;
-    left: 54.3rem;
-    top: 63.3rem;
+    height: 4.9rem; 
+    right: 0rem;
+    top: 12rem;
 
     border-radius: 1.5rem;
+}
+
+/* 2 */
+
+.main { 
+    margin-top: 32.6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .title {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    margin-bottom: 2.7rem;
+}
+
+.yellow_btn {
+    width: 35.5rem;
+    text-align: center;
+    height: 4.8rem;
+    padding: 1.3rem 8rem;
+    background-color: #FFCC00;
+    border-radius: 1.5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.precaution {
+    text-align: start;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    color: #767676;
+    width: 35.5rem;
+    margin-top: 1.7rem;
+}
+
+.precaution span {
+    color: #0099FF;
 }
