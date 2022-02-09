@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../CSS/signup2.css";
-import Layout from "../Layout/Header.js";
+import Layout from "../Layout/Layout";
 import profile from "../imgs/Profile.png";
 
 const SignUpPage2 = () => {
@@ -26,7 +26,7 @@ const SignUpPage2 = () => {
               <input type="text" placeholder="yyyy/mm/dd" />
             </div>
           </div>
-          <Link to="/signup/signup2/signupsucess">
+          <Link to="/signupsuccess">
             <button className="yellow-btn signup-btn">가입하기</button>
           </Link>
         </div>

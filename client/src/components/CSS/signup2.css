@@ -48,7 +48,7 @@ html {
 
 .input-title {
     text-align: start;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 1.5rem;
 }
 
@@ -61,6 +61,7 @@ html {
     width: 441px;
     height: 35px;
     font-size: 1.5rem;
+    border-bottom: none;
 }
 
 .precaution {

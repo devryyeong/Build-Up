@@ -76,7 +76,7 @@ function SignUpPage() {
             ></input>
             <p>비밀번호 일치</p>
           </div>
-          <input type="submit" id="sign_up_btn" value="계속하기"></input>
+          <Link to="/signup2"><input type="submit" id="sign_up_btn" value="계속하기"></input></Link>
         </form>
         <div id="textbox">
           <p>
@@ -84,7 +84,7 @@ function SignUpPage() {
             <a href="#">개인 정보 고지 사항</a>에 동의하는 것입니다.
           </p>
           <p>
-            계정이 이미 있다면 <a href="../LoginPage/LoginPage.html">로그인</a>{" "}
+            계정이 이미 있다면 <Link to="/login">로그인</Link>{" "}
             하러 가기
           </p>
         </div>
