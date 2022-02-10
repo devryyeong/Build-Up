@@ -1,0 +1,231 @@
+@import url(./reset.css);
+
+html {
+    font-size: 10px;
+    background-color: #ffffff;
+}
+
+
+.title {
+    position: absolute;
+    width: 130.9rem;
+    height: 4.4rem;
+    left: 13.1rem;
+    top: 11.9rem;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4.4rem;
+}
+
+.experience, .activity, .educational, .information {
+    position: absolute;
+    width: 130.9rem;
+    height: 3.6rem;
+    left: 13.1rem;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+
+    color: #767676;
+}
+
+.title_line, .experience_line, .activity_line, .educat_line, .info_line {
+    margin: 0;
+    border: 0;
+    position: absolute;
+    width: 118.1rem;
+    left: 13rem;
+    color: #6b6969;
+}
+
+.name, .address, .birth, .phone, .email, .school, .test_score, .certificate, .contest, .club, .link, .career {
+    position: absolute;
+    width: 49.7rem;
+    height: 6.9rem;
+    left: 11.5rem;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+
+}
+
+.name, .address, .birth, .phone {
+    border-bottom: 0.1rem solid #FFCC00;
+}
+
+.email, .school, .test_list, .test_score, .certificate, .contest, .club, .link, .career {
+    border-bottom: 0.1rem solid #DBDBDB;
+}
+
+.name_area, .address_area, .birth_area, .phone_area, .email_area, .school_area, .certificate_area, .test_area, .contest_area, .club_area, .link_area, .career_area {
+    position: absolute;
+    width: 61.2rem;
+    height: 7rem;
+    left: 13.1rem;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3rem;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.title_line {
+    top: 18.1rem;
+
+}
+
+
+.information {
+    top: 22.2rem;
+}
+
+
+.info_line {
+    top: 26.6rem;
+}
+
+.name_area {
+    top: 29.4rem;
+}
+
+.address_area {
+    top: 39.7rem;
+} 
+
+.birth_area {
+    top: 50rem;
+}
+
+.phone_area {
+    top: 60.3rem
+}
+
+.email_area {
+    top: 70.6rem
+}
+
+.img_profile {
+    position: absolute;
+    width: 23.5rem;
+    height: 31.4rem;
+    left: 97.7rem;
+    top: 29.5rem;
+
+}
+
+.profile_btn {
+    position: absolute;
+    width: 12.2rem;
+    height: 3rem;
+    left: 97.6rem;
+    top: 62.2rem;
+
+    background: #FFCC00;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.educational {
+    top: 84.2rem;
+}
+
+.educat_line {
+    top: 88.6rem;
+}
+
+.school_area {
+    top: 92.1rem;
+}
+
+.test_area {
+    top: 102.4rem;
+}
+
+.test_list {
+    width: 14.4rem;
+    height: 6.9rem;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+.test_score {
+    left: 29.2rem;
+}
+
+.certificate_area {
+    top: 112.7rem;
+}
+
+.activity {
+    top: 126.3rem;
+}
+
+.activity_line {
+    top: 130.7rem;
+}
+
+.contest_area {
+    top: 134.2rem;
+}
+
+.club_area {
+    top: 144.5rem;
+}
+
+.experience {
+    top: 158.1rem;
+}
+
+.experience_line {
+    top: 162.5rem;
+}
+
+.link_area {
+    top: 166rem;
+}
+
+.career_area {
+    top: 176.3rem
+}
+
+.submit_btn {
+    position: absolute;
+    width: 14rem;
+    height: 4.9rem;
+    left: 13.1rem;
+    top: 190.9rem;
+
+    border-style: hidden;
+
+    background: #FFCC00;
+    border-radius: 5px;
+
+    color: #ffffff;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    text-align: center;
+}
