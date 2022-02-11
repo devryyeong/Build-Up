@@ -17,6 +17,8 @@ html {
     font-weight: bold;
     font-size: 3rem;
     line-height: 4.4rem;
+
+    margin-top: 10px;
 }
 
 .experience, .activity, .educational, .information {

@@ -3,8 +3,10 @@
 /* header 부분 */
 .header-area {
   display: flex;
-  justify-content: space-between;
-  margin: 0rem 3.6rem;
+  /* margin: 0rem 3.6rem; */
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
 }
 
 .logo {
@@ -16,12 +18,13 @@
 
 .place-tab {
   display: flex;
-  align-items: center;
   margin-right: 37px;
+  align-items: center;
 }
 
 .tab-inner {
   display: flex;
+  align-items: center;
 }
 
 .tab {
@@ -29,6 +32,14 @@
   height: 2.25rem;
   margin-right: 1.8rem;
   text-align: center;
+  text-decoration-line: none;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.tab:hover {
+  color: #FFCC00;
 }
 
 .txt {
@@ -37,8 +48,6 @@
 
 .login-btn {
   margin-left: 39px;
-  margin-top: 20px;
-  text-align: center;
   height: 49px;
   width: 218px;
   padding: 17px;
@@ -47,4 +56,5 @@
   color: white;
   font-weight: 700;
   font-size: 15px;
+
 }

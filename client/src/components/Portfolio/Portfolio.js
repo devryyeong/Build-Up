@@ -5,8 +5,9 @@ import styles from '../CSS/Portfolio.module.css';
 function Portfolio() {
     return (
         <div>
+          <Layout />
             <div>
-             <h1  className={styles.title}>유저의 포트폴리오</h1>
+            <h1  className={styles.title}>유저의 포트폴리오</h1>
             <hr className={styles.title_line}></hr> 
             </div>
             <div>

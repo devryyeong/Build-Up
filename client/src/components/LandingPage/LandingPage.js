@@ -7,12 +7,15 @@ import portfolio from "../imgs/portfolio.png";
 import tree from "../imgs/tree.png";
 import mt from "../imgs/mt.png";
 import NavBar from "../NavBar/NavBar";
+import Layout from '../Layout/Layout';
+
 
 function LandingPage() {
   return (
     <div>
+      <Layout />
       <NavBar />
-      <body className="x">
+      <div className="x">
         <div className="main">
           <div className="main-catchphrase">
             <img src={catchPhrase} alt="catchPharse" />
@@ -29,7 +32,7 @@ function LandingPage() {
           </div>
         </div>
 
-        <footer className="footer-area">
+        <div className="footer-area">
           <div className="footer-container">
             <img className="footer-img" src={portfolio} alt="포트폴리오" />
             <div className="footer-content">
@@ -62,8 +65,9 @@ function LandingPage() {
               </div>
             </div>
           </div>
-        </footer>
-      </body>
+          
+        </div>
+      </div>
     </div>
   );
 }
