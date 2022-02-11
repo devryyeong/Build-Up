@@ -23,20 +23,17 @@
 
 /* footer 부분 */
 .footer-area {
-    padding: 0rem 3.6rem;
     background-color: #EDEDED;
     height: 206px;
     width: 1440px;
     position: absolute;
-    bottom: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
 }
 
 
@@ -63,13 +60,16 @@
 
 /* main 부분 */
 .main {
-    text-align: center;
-    height: 76.8rem;
+    /* text-align: center; */
+    /* height: 76.8rem; */
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
 .main-catchphrase {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .main-catchphrase img {
