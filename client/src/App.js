@@ -14,6 +14,7 @@ import ChangingPW from "./components/FindingID,PW/ChangingPW";
 import ChangingPW2 from "./components/FindingID,PW/ChangingPW2";
 import ChangingPW3 from "./components/FindingID,PW/ChangingPW3";
 import Diary from './components/Diary/Diary';
+import Portfolio from './components/Portfolio/Portfolio';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/changingpw2" element={<ChangingPW2 />} />
           <Route path="/changingpw3" element={<ChangingPW3 />} />
           <Route path="/diary" element={<Diary />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
       </BrowserRouter>
     </div>
