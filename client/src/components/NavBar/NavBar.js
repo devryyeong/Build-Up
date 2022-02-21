@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-
 import {Link} from 'react-router-dom';
 import '../CSS/NavBar.css'
 import logo from "../imgs/logo.png"
@@ -23,8 +22,8 @@ function NavBar() {
                   </div>
               </div>
         </div>
-    </div>
-  )
+      </div>
+  );
 }
 
 export default NavBar

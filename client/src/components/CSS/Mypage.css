@@ -1,0 +1,133 @@
+@import url(../CSS/reset.css);
+
+html {
+    font-size: 10px;
+    background-color: #ffffff;
+}
+.imgArea {
+    display: block;
+    position: relative;
+    top: 18.4rem;
+    left: 13.1rem;
+    width: 17.1rem;
+}
+.inform {
+    position: absolute;
+    margin-left: 11.5rem;
+    margin-top: 20.5rem;
+}
+.portpoilio {
+    position: absolute;
+    margin-left: 11.5rem;
+    margin-top: 87.1rem;
+}
+form label {
+    display: inline-block;
+    width: 11.5rem;
+    height: 3.0rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.0rem;
+    line-height: 3.0rem; 
+}
+.inform input {
+    display: inline-block;
+    width: 49.7rem;
+    height: 6.9rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.2rem solid  #EDEDED;
+    color: #767676;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+.portpoilio input {
+    display: inline-block;
+    width: 49.7rem;
+    height: 6.9rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.2rem solid #FFCC00;
+    color: #767676;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+form input[type=password] {
+    color: black;
+}
+.nameArea, .numArea, .idArea, .pwArea, .introArea, .addressArea, .birthArea, .emailArea,
+.eduArea, .testArea, .contestArea, .certifiArea, .linkArea, .carArea {
+    margin-bottom: 6.0rem;
+}
+.personalArea, .educationArea, .awardArea, .careerArea {
+    margin-bottom: 6.7rem;
+}
+h2, h3 {
+    display: inline;
+}
+h2 > span {
+    display: inline;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.0rem;
+    line-height: 4.4rem;
+}
+h3 > span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #767676;
+}
+.yellowBtn {
+    position: absolute;
+    background: #FFCC00;
+    border: none;
+    border-radius: 0.5rem;
+    width: 14.0rem;
+    height: 4.9rem;
+    cursor: pointer;
+
+    color: white;
+    font-style: normal;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    text-align: center;
+
+    margin-left: 8.4rem;
+}
+.pdfBtn {
+    position: absolute;
+    background: #FFCC00;
+    border: none;
+    border-radius: 0.9rem;
+    width: 21.8rem;
+    height: 4.9rem;
+    cursor: pointer;
+
+    color: white;
+    font-style: normal;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    text-align: center;
+
+    margin-left: 71rem;
+}
+.setBtn {
+    position: absolute;
+    top: 4.7rem;
+    right: 122.4rem;
+    width: 4rem;
+    height: 4rem;
+}
+.myPhoto {
+    position: absolute;
+    top: 17.5rem;
+    left: 75.9rem;
+    width: 23.6rem;
+    height: 31.5rem;
+}
