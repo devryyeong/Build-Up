@@ -37,6 +37,7 @@ function App() {
           <Route path="/changingpw3" element={<ChangingPW3 />} />
           <Route path="/diary" element={<Diary />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/mypage" element={<Mypage/>} />
         </Routes>
       </BrowserRouter>
     </div>

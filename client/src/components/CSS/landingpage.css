@@ -1,44 +1,50 @@
-@import url("./reset2.css");
+/* @import url("./reset2.css"); */
 
 * {
     font-size: 10px;
 
 }
 .x {
-    position: relative;
     font-size: 1.5rem;
+    width: 100%;
 }
 
 .yellow-btn {
     text-align: center;
-    height: 49px;
-    width: 218px;
-    padding: 17px;
+    height: 4.9rem;
+    width: 21.8rem;
+    padding: 1.35rem 1rem;
     background-color: #FFCC00;
-    border-radius: 9px;
+    border-radius: 0.9rem;
+
     color: white;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
   }
 
 /* footer 부분 */
+
+
 .footer-area {
     background-color: #EDEDED;
     height: 206px;
-    width: 1440px;
-    position: absolute;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    padding: 5.5rem 4rem;  
 }
 
 .footer-container {
     display: flex;
 }
 
-
 .footer-img {
     margin-right: 6.0rem;
+    width : 9.6rem;
+    height: 9.7rem;
 }
 
 .footer-content {
@@ -48,28 +54,30 @@
 }
 
 .content-title {
+    width: 21.5rem;
     font-size: 1.8rem;
     font-weight: bold;
+    line-height: 2.7rem;
     margin-bottom: 0.7rem;
 }
 
 .content-content {
-    font-size: 1rem;
+    width: 22rem;
+    font-size: 1.1rem;
     line-height: 1.6rem;
 }
 
 /* main 부분 */
 .main {
-    /* text-align: center; */
-    /* height: 76.8rem; */
-    /* display: flex; */
-    /* justify-content: center; */
+    text-align: center; 
+    height: 55.4rem;
+    display: flex;
+    margin-top : 3.2rem;
+    margin-bottom: 5.0rem;
 }
 
 .main-catchphrase {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
 }
 
 .main-catchphrase img {
@@ -78,11 +86,11 @@
 }
 
 .main-text {
-    margin-bottom: 5.4rem;
     line-height: 2.2rem;
+    height: 4.4rem;
 }
 
 .main-signup {
-    margin-bottom: 4.8rem;
+    margin-top : 5.6rem;
 }
 
