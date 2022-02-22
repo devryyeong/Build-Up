@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-router.post("/set", (req, res, next) => {
+router.post("/create", (req, res, next) => {
   const {
     name,
     address,
@@ -24,8 +24,17 @@ router.post("/set", (req, res, next) => {
   return res.json(result);
 });
 
-router.get("/get", (req, res, next) => {
-  console.log("HTTP GET: Portfolio get");
+router.get("/read", (req, res, next) => {
+  console.log("HTTP GET: Portfolio read");
 });
 
+router.post("/update", (req, res, next) => {
+  const fields = req.body;
+
+  console.log("HTTP POST: Portfolio update");
+});
+
+router.post("/delete", (req, res, next) => {
+  // const
+});
 module.exports = router;
