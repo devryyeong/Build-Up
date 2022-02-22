@@ -16,12 +16,12 @@ html {
     margin-left: 11.5rem;
     margin-top: 20.5rem;
 }
-.portpoilio {
+.portfolio {
     position: absolute;
     margin-left: 11.5rem;
     margin-top: 87.1rem;
 }
-form label {
+.label {
     display: inline-block;
     width: 11.5rem;
     height: 3.0rem;
@@ -34,21 +34,17 @@ form label {
     display: inline-block;
     width: 49.7rem;
     height: 6.9rem;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: none;
     border-bottom: 0.2rem solid  #EDEDED;
     color: #767676;
     font-size: 1.8rem;
     line-height: 2.7rem;
 }
-.portpoilio input {
+.portfolio input {
     display: inline-block;
     width: 49.7rem;
     height: 6.9rem;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: none;
     border-bottom: 0.2rem solid #FFCC00;
     color: #767676;
     font-size: 1.8rem;
@@ -64,7 +60,7 @@ form input[type=password] {
 .personalArea, .educationArea, .awardArea, .careerArea {
     margin-bottom: 6.7rem;
 }
-h2, h3 {
+.title {
     display: inline;
 }
 h2 > span {

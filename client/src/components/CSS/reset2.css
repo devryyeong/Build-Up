@@ -84,11 +84,11 @@ body {
     display: none;
   }
   
-  input,
+  /* input,
   textarea {
     font-size: inherit;
     border: 0;
-  }
+  } */
   
   input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {

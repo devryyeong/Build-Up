@@ -1,26 +1,27 @@
-@import url(./reset.css);
+/* @import url(./reset.css); */
 
 html {
     font-size: 10px;
 }
 
-body {
+/* body {
     width: 1440px;
     height: 1024px;
     background-color: ffffff;
-
     font-family: noto-sans-cjk-kr,sans-serif;
-}
+} */
+
 /* 입력창 테두리 */
 input {
     background: #FFFFFF;
-
-    border: hidden;
-    border-bottom: 0.1rem solid #DBDBDB;
+    border-top : none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 0.1rem solid #EDEDED;
 }
 
 /* 라벨 텍스트 */
-label {
+.label {
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
@@ -65,7 +66,7 @@ p {
 }
 
 /* 이름 */
-#name_area {
+.nameArea {
     position: absolute;
     width: 35.5rem;
     height: 8rem;
@@ -73,7 +74,7 @@ p {
     top: 21.8rem;
 }
 
-#name {
+.name {
     position: absolute;
     width: 35.5rem;
     height: 5rem;
@@ -82,7 +83,7 @@ p {
 }
 
 /* 아이디 */
-#id_area {
+.idArea {
     position: absolute;
     width: 35.5rem;
     height: 8rem;
@@ -90,7 +91,7 @@ p {
     top: 31.6rem;
 }
 
-#id {
+.id {
     position: absolute;
     width: 35.5rem;
     height: 5rem;
@@ -99,7 +100,7 @@ p {
 }
 
 /* 전화번호 */
-#phone_area {
+.phoneArea {
     position: absolute;
     width: 35.5rem;
     height: 8rem;
@@ -107,7 +108,7 @@ p {
     top: 41.4rem;
 }
 
-#phone {
+.phone {
     position: absolute;
     width: 20.6rem;
     height: 4.9rem;
@@ -116,7 +117,7 @@ p {
     
 }
 
-#phone_btn {
+.phoneBtn {
     position: absolute;
     width: 14rem;
     height: 4.9rem;
@@ -137,7 +138,7 @@ p {
 
 
 /* 비밀번호 */
-#password_area {
+.passwordArea {
     position: absolute;
     width: 35.5rem;
     height: 9.6rem;
@@ -145,7 +146,7 @@ p {
     top: 51.2rem;
 }
 
-#password {
+.password {
     position: absolute;
     width: 35.5rem;
     height: 4.9rem;
@@ -154,17 +155,18 @@ p {
 }
 
 /* 비밀번호 하단 텍스트 */
-#password_area p {
+.passwordArea > p {
     position: absolute;
     width: 35.5rem;
     height: 1.6rem;
     left: 0rem;
     top: 9rem;
+    margin-bottom: 0.5rem;
 
 }
 
 /* 비밀번호 확인 */
-#check_password_area {
+.checkPasswordArea {
     position: absolute;
     width: 35.5rem;
     height: 9.6rem;
@@ -173,7 +175,7 @@ p {
 
 }
 
-#check_password {
+.checkPassword {
     position: absolute;
     width: 35.5rem;
     height: 5rem;
@@ -182,7 +184,7 @@ p {
 }
 
 /* 비밀번호 확인 하단 텍스트 */
-#check_password_area p {
+.checkPasswordArea > p {
     position: absolute;
     width: 35.5rem;
     height: 1.6rem;
@@ -200,7 +202,7 @@ p {
     top: 76.6rem;
 
     background: #FFCC00;
-    border-radius: 1.5rem;
+    border-radius: 1.1rem;
     border: hidden;
 
     font-style: normal;

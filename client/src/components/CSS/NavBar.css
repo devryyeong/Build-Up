@@ -2,11 +2,16 @@
 
 /* header 부분 */
 .header-area {
-  display: flex;
-  /* margin: 0rem 3.6rem; */
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 40px;
+  display: inline-block;
+  float : right;
+  margin: 0rem 3.6rem;
+  margin-top: 32.8px;
+}
+
+.header-area::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .logo {
@@ -18,7 +23,6 @@
 
 .place-tab {
   display: flex;
-  margin-right: 37px;
   align-items: center;
 }
 

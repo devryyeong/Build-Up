@@ -37,6 +37,10 @@
     color : #FFCC00
 }
 
+.header a:visited {
+    color : black;
+}
+
 
 /*main*/
 .main {

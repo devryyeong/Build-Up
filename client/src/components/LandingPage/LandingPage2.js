@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../CSS/landingpage2.module.css";
+import styles from "../CSS/Landingpage2.module.css";
 import { Link } from 'react-router-dom';
 
 const LandingPage2 = () => {
@@ -7,7 +7,7 @@ const LandingPage2 = () => {
     <div>
       <header className={styles.header}>
         <a href="#diary">다이어리</a>
-        <a href="#portpoilio">포트폴리오</a>
+        <a href="#portfolio">포트폴리오</a>
         <a href="#mypage">마이페이지</a>
       </header>
 
@@ -32,7 +32,7 @@ const LandingPage2 = () => {
           <img className={styles.img1} src={require("../imgs/diary.jpg")} alt="diary" />
         </div>
         <div className={styles.container} id="buildup">
-          <img className={styles.img2} src={require("../imgs/buildup.jpg")} alt="build-up" />
+          <img className={styles.img2} src={require("../imgs/buildUp.jpg")} alt="build-up" />
           <div className={styles.textContainer}>
             <h2
               style={{
@@ -50,7 +50,7 @@ const LandingPage2 = () => {
             </span>
           </div>
         </div>
-        <div className={styles.container} id="portpoilio">
+        <div className={styles.container} id="portfolio">
           <img className={styles.img3} src={require("../imgs/portfolio.jpg")} alt="portfolio" />
           <div className={styles.textContainer}>
             <h2
@@ -123,7 +123,7 @@ const LandingPage2 = () => {
           <div className={styles.buildupcontainer}>
             <img
               className={styles.footImgLogo}
-              src={require("../imgs/buildup.jpg")}
+              src={require("../imgs/buildUp.jpg")}
               alt="build-up"
             />
             <img className={styles.footImgName} alt="build-up-text"/>
@@ -162,24 +162,24 @@ const LandingPage2 = () => {
             <ul className={styles.ul}>
               <h6>가이드</h6>
               <li>
-                <Link className={styles.link} to="/">
+                <a className={styles.link} href="#diary">
                   다이어리
-                </Link>
+                </a>
               </li>
               <li>
-                <Link className={styles.link} to="/">
+                <a className={styles.link} href="#portfolio">
                   포트폴리오
-                </Link>
+                </a>
               </li>
               <li>
-                <Link className={styles.link} to="/">
+                <a className={styles.link} href="#mypage">
                   마이페이지
-                </Link>
+                </a>
               </li>
             </ul>
             <ul className={styles.ul}>
               <h6>회사 소개</h6>
-              <li>Build Up 팀 소개</li>
+              <li><a className={styles.link} href="#team">Build Up 팀 소개</a></li>
               <li>회사 정책</li>
             </ul>
             <ul className={styles.ul}>

@@ -1,65 +1,65 @@
 import React from 'react';
 import Layout from '../Layout/Layout';
 import { Link } from 'react-router-dom';
-import '../CSS/Mypage.css';
+import styles from '../CSS/Mypage.module.css';
 
 const Mypage = () => {
     return (
       <div className="view">
         <Layout style={{ position: "relative" }}>
-          <header className="imgArea">
+          <header className={styles.imgArea}>
             <img src={require("../imgs/Profile.png")} />
           </header>
-          <div className="inform">
+          <div className={styles.inform}>
             <form>
               {/* css 태그 직계 자손에 적용하고 싶은 style은 부모한테 프로퍼티 부여하기 */}
-              <div className="nameArea">
-                <label for="name">이름</label>
+              <div className={styles.nameArea}>
+                <label className={styles.label} for="name">이름</label>
                 <input type="text" id="name" value="유저" readOnly />
               </div>
-              <div className="numArea">
-                <label for="number">전화번호</label>
+              <div className={styles.numArea}>
+                <label className={styles.label} for="number">전화번호</label>
                 <input type="number" id="number" value="01012341234" readOnly />
               </div>
-              <div className="idArea">
-                <label for="id">아이디</label>
+              <div className={styles.idArea}>
+                <label className={styles.label} for="id">아이디</label>
                 <input type="text" id="id" value="user1234" readOnly />
               </div>
-              <div className="pwArea">
-                <label for="pw">비밀번호</label>
+              <div className={styles.pwArea}>
+                <label className={styles.label} for="pw">비밀번호</label>
                 <input type="password" id="pw" value="user1234^^" />
-                <button className="yellowBtn">변경</button>
+                <button className={styles.yellowBtn}>변경</button>
               </div>
-              <div className="introArea">
-                <label for="intro">자기소개</label>
+              <div className={styles.introArea}>
+                <label className={styles.label} for="intro">자기소개</label>
                 <input type="text" id="intro" value="안녕하세요!" />
-                <button className="yellowBtn">수정</button>
+                <button className={styles.yellowBtn}>수정</button>
               </div>
               {/* 자기소개 최대 몇 줄? 텍스트 글자 밑으로 넘어가면 어떻게 됨? */}
             </form>
           </div>
-          <div className="portpoilio">
-              <button className="setBtn">버튼</button>
+          <div className={styles.portfolio}>
+              <button className={styles.setBtn}>버튼</button>
             <div>
-              <h2>
+              <h2 className={styles.title}>
                 <span>유저의 포트폴리오</span>
               </h2>
-              <button className="pdfBtn">pdf로 변환하기</button>
+              <button className={styles.pdfBtn}>pdf로 변환하기</button>
               <hr style={{ width: "118.1rem", marginBottom: "3.8rem" }} />
             </div>
-            <img className="myPhoto" src={require("../imgs/my_photo.png")}/>
+            <img className={styles.myPhoto} src={require("../imgs/my_photo.png")}/>
             <form>
-              <div className="personalArea">
-                <h3>
+              <div className={styles.personalArea}>
+                <h3 className={styles.title}>
                   <span>인적사항</span>
                 </h3>
                 <hr style={{ width: "118.1rem", marginBottom: "2.6rem" }}/>
-                <div className="nameArea">
-                  <label for="name">이름</label>
+                <div className={styles.nameArea}>
+                  <label className={styles.label} for="name">이름</label>
                   <input type="text" id="name" value="유저" readOnly />
                 </div>
-                <div className="addressArea">
-                  <label for="address">주소</label>
+                <div className={styles.addressArea}>
+                  <label className={styles.label} for="address">주소</label>
                   <input
                     type="text"
                     id="address"
@@ -67,12 +67,12 @@ const Mypage = () => {
                     readOnly
                   />
                 </div>
-                <div className="birthArea">
-                  <label for="birth">생년월일</label>
+                <div className={styles.birthArea}>
+                  <label className={styles.label} for="birth">생년월일</label>
                   <input type="text" id="birth" value="2002/04/02" readOnly />
                 </div>
-                <div className="numArea">
-                  <label for="number">연락처</label>
+                <div className={styles.numArea}>
+                  <label className={styles.label} for="number">연락처</label>
                   <input
                     type="text"
                     id="number"
@@ -80,8 +80,8 @@ const Mypage = () => {
                     readOnly
                   />
                 </div>
-                <div className="emailArea">
-                  <label for="email">이메일</label>
+                <div className={styles.emailArea}>
+                  <label className={styles.label} for="email">이메일</label>
                   <input
                     type="email"
                     id="email"
@@ -91,13 +91,13 @@ const Mypage = () => {
                 </div>
               </div>
 
-              <div className="educationArea">
-                <h3>
+              <div className={styles.educationArea}>
+                <h3 className={styles.title}>
                   <span>학력사항</span>
                 </h3>
                 <hr style={{ width: "118.1rem", marginBottom: "2.6rem" }}/>
-                <div className="eduArea">
-                  <label for="edu">학력</label>
+                <div className={styles.eduArea}>
+                  <label className={styles.label} for="edu">학력</label>
                   <input
                     type="text"
                     id="edu"
@@ -105,8 +105,8 @@ const Mypage = () => {
                     readOnly
                   />
                 </div>
-                <div className="testArea">
-                  <label for="test">어학시험</label>
+                <div className={styles.testArea}>
+                  <label className={styles.label} for="test">어학시험</label>
                   <input type="text" id="test" list="test" value="" />
                   <datalist id="test">
                     <option>TOEFL</option>
@@ -116,8 +116,8 @@ const Mypage = () => {
                     <option>HSK</option>
                   </datalist>
                 </div>
-                <div className="certiciArea">
-                  <label for="certifi">자격증</label>
+                <div className={styles.certiciArea}>
+                  <label className={styles.label} for="certifi">자격증</label>
                   <input
                     type="text"
                     id="certifi"
@@ -127,13 +127,13 @@ const Mypage = () => {
                 </div>
               </div>
 
-              <div className="awardArea">
-                <h3>
+              <div className={styles.awardArea}>
+                <h3 className={styles.title}>
                   <span>수상경력</span>
                 </h3>
                 <hr style={{ width: "118.1rem", marginBottom: "2.6rem" }} />
-                <div className="contestArea">
-                  <label for="contest">공모전</label>
+                <div className={styles.contestArea}>
+                  <label className={styles.label} for="contest">공모전</label>
                   <input
                     type="text"
                     id="contest"
@@ -144,12 +144,12 @@ const Mypage = () => {
               </div>
 
               <div className="careerArea">
-                <h3>
+                <h3 className={styles.title}>
                   <span>경력사항</span>
                 </h3>
                 <hr style={{ width: "118.1rem", marginBottom: "2.6rem" }}/>
                 <div className="linkArea">
-                  <label for="link">링크</label>
+                  <label className={styles.label} for="link">링크</label>
                   <input
                     type="text"
                     id="link"
@@ -158,7 +158,7 @@ const Mypage = () => {
                   />
                 </div>
                 <div className="carArea">
-                  <label for="career">경력</label>
+                  <label className={styles.label} for="career">경력</label>
                   <input
                     type="text"
                     id="career"
