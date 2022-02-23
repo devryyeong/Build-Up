@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-
+import Goal from "./components/Diary/Goal";
+import Custom from "./components/Customer/Custom";
 import Mypage from "./components/MyPage/Mypage";
 import LoginPage from "./components/LoginPage/LoginPage";
 import SignUpPage from "./components/SignUpPage/SignUpPage";
@@ -37,7 +38,9 @@ function App() {
           <Route path="/changingpw3" element={<ChangingPW3 />} />
           <Route path="/diary" element={<Diary />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/mypage" element={<Mypage/>} />
+          <Route path="/mypage" element={<Mypage />} />
+          <Route path="/customer" element={<Custom />} />
+          <Route path="/goal" element={<Goal />} />
         </Routes>
       </BrowserRouter>
     </div>
