@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../CSS/Landingpage2.module.css";
+import styles from "../CSS/landingpage2.module.css";
 import { Link } from 'react-router-dom';
 
 const LandingPage2 = () => {
