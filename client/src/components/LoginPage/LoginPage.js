@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styles from '../CSS/LoginPage.module.css';
 import Layout from '../Layout/Layout';
 
@@ -24,9 +23,7 @@ function LoginPage() {
             <input
               type="checkbox"
               className={styles.auto_login}
-              name="auto_login"
-              value="y"
-            />
+              value="y"/>
             자동 로그인
           </label>
 
