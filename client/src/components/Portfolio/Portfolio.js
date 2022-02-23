@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Layout from "../Layout/Layout";
 import styles from '../CSS/Portfolio.module.css';
 
@@ -28,7 +28,7 @@ function Portfolio() {
                 <label className={styles.birth_area}>생년 월일
                     <input type="text"
                     className={styles.birth}
-                    placeholder="   ex)2002/04/02"></input>
+                    placeholder="   ex) 2002/04/02"></input>
                 </label>
                 <label className={styles.phone_area}>연락처
                     <input type="tel"

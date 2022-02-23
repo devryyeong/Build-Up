@@ -1,0 +1,97 @@
+html {
+    font-size: 10px;
+}
+
+.calendar {
+    position: absolute;
+    width: 89.4rem;
+    left: 11.3rem;
+    top: 19.5rem;
+
+    font-size: 1.4rem;
+
+}
+
+.border {
+    position: absolute;
+    left: 106rem;
+    width: 38rem;
+    height: 102.4rem;
+    border-left: 0.1rem solid #FFCC00;
+}
+
+.diary{
+    position: absolute;
+    width: 29.8rem;
+    height: 3.6rem;
+    left: 5rem;
+    top: 35.6rem;
+    
+}
+
+.diary span {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+
+    color: #767676;
+}
+
+.goalLine {
+    position: absolute;
+    width: 30.5rem;
+    height: 0.1rem;
+    left: 3.6rem;
+    top: 43.1rem;
+
+    background: #DBDBDB;
+}
+
+.diaryTextbox {
+    position: absolute;
+    width: 25.8rem;
+    height: 9.6rem;
+    left: 5rem;
+    top: 46rem;
+
+    background: #FFFFFF;
+    border: 0.1rem solid #FFCC00;
+    border-radius: 1rem;
+}
+
+.starArea {
+    position: absolute;
+    width: 25.8rem;
+    left: 3rem;
+    top: 56.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.starArea img {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.btnArea button {
+    position: absolute;
+    width: 9rem;
+    height: 3.1rem;
+    top: 63.8rem;
+
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+
+    border-radius: 0.5rem;
+}
+
+.createBtn, .changeBtn {
+    left: 5rem;
+    background-color: #FFDE5C;
+    color: #ffffff;
+}
+
+.deleteBtn {
+    left: 15.1rem;
+    border: 0.1rem solid #DBDBDB;
+}
+
