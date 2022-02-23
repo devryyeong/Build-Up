@@ -4,13 +4,12 @@ html {
     font-size: 10px;
 }
 
-body {
+/* body {
     width: 1440px;
     height: 1024px;
     background-color: ffffff;
-
     font-family: noto-sans-cjk-kr,sans-serif;
-}
+} */
 
 /* 입력창 테두리 설정 */
 .name, .id, .phone {

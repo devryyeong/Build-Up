@@ -5,20 +5,9 @@ html {
     font-size: 10px;
 }
 
-.main {
-    margin-top: 4.8rem; 
-}
-
-.logo-fixed {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 3.7rem;
-    margin-top: 2rem;
-    height: 7.6rem;
-}
-
 /* main 영역  */
 .main {
+    margin-top: 4.8rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -26,38 +15,37 @@ html {
     align-items: center;
 }
 
-.main .title {
+.title {
+    display: block;
+    width: 35.5rem;
+    margin-bottom: 12.7rem;
     font-weight: 700;
     font-size: 2.4rem;
-    margin-bottom: 12.7rem;
 }
 
-.main .profile-image {
+.profileImage {
     margin-bottom: 3rem;
-}
-
-.profile-image img {
     width: 10.8rem;
     height: auto;
 }
 
-.input-container {
+.inputContainer {
     width: 35.3rem;
     margin-bottom: 1.8rem;
 }
 
-.input-title {
+.inputTitle {
     text-align: start;
     font-weight: normal;
     font-size: 1.5rem;
 }
 
-.input-input {
+.inputInput {
     padding: 0.7rem 0rem 0.7rem 2.1rem;
     border-bottom: 1px solid #DBDBDB;
 }
 
-.input-input input {
+.inputInput > input {
     width: 441px;
     height: 35px;
     font-size: 1.5rem;
@@ -71,10 +59,9 @@ html {
     color: #767676;
 }
 
+.inputInput > input:focus {outline:none;}
 
-input:focus {outline:none;}
-
-.yellow-btn {
+.signUpBtn {
     width: 35.5rem;
     margin-top: 1.3rem;
     text-align: center;

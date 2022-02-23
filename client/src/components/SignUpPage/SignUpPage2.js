@@ -1,36 +1,37 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import "../CSS/signup2.css";
+import styles from "../CSS/SignUpPage2.module.css";
 import Layout from "../Layout/Layout";
-import profile from "../imgs/Profile.png";
 
 const SignUpPage2 = () => {
   return (
     <Layout>
-      <div>
-        <div className="main">
-          <h1 className="title">회원가입</h1>
-          <div className="profile-image">
-            <img src={profile} alt="프로필" />
-          </div>
-          <div className="input-container">
-            <div className="input-title">자기소개(선택)</div>
-            <div className="input-input">
+      <Fragment>
+        <div className={styles.main}>
+          <h1 className={styles.title}>회원가입</h1>
+          <img
+            className={styles.profileImage}
+            src={require("../imgs/Profile.png")}
+            alt="프로필"
+          />
+          <div className={styles.inputContainer}>
+            <div className={styles.inputTitle}>자기소개(선택)</div>
+            <div className={styles.inputInput}>
               <input type="text" placeholder="." />
             </div>
-            <div className="precaution">30자 이내</div>
+            <div className={styles.precaution}>30자 이내</div>
           </div>
-          <div className="input-container">
-            <div className="input-title">생년 월일</div>
-            <div className="input-input">
+          <div className={styles.inputContainer}>
+            <div className={styles.inputTitle}>생년 월일</div>
+            <div className={styles.inputInput}>
               <input type="text" placeholder="yyyy/mm/dd" />
             </div>
           </div>
           <Link to="/signupsuccess">
-            <button className="yellow-btn signup-btn">가입하기</button>
+            <button className={styles.signUpBtn}>계속하기</button>
           </Link>
         </div>
-      </div>
+      </Fragment>
     </Layout>
   );
 };
