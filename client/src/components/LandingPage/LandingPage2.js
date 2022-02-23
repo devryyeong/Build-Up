@@ -208,7 +208,7 @@ const LandingPage2 = () => {
             </ul>
             <ul className={styles.ul}>
               <h6>Build Up 고객센터</h6>
-              <li>도움말과 지원</li>
+             <li><Link className={styles.link} to="/customer">도움말과 지원</Link></li>
               <li>Build Up에 이메일 보내기</li>
             </ul>
           </div>
