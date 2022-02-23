@@ -16,6 +16,11 @@ import ChangingPW2 from "./components/FindingID,PW/ChangingPW2";
 import ChangingPW3 from "./components/FindingID,PW/ChangingPW3";
 import Diary from './components/Diary/Diary';
 import Portfolio from './components/Portfolio/Portfolio';
+import DiaryGoal from './components/Diary/Diary_goal';
+import DiaryGoal2 from './components/Diary/Diary_goal2';
+import DiaryWriting from './components/Diary/Diary_writing';
+
+
 
 
 function App() {
@@ -38,9 +43,15 @@ function App() {
           <Route path="/changingpw3" element={<ChangingPW3 />} />
           <Route path="/diary" element={<Diary />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/mypage" element={<Mypage />} />
           <Route path="/customer" element={<Custom />} />
           <Route path="/goal" element={<Goal />} />
+          <Route path="/mypage" element={<Mypage/>} />
+          <Route path="/diary_goal" element={<DiaryGoal/>} />
+          <Route path="/diary_goal2" element={<DiaryGoal2/>} />
+          <Route path="/diary_writing" element={<DiaryWriting/>} />
+
+
+
         </Routes>
       </BrowserRouter>
     </div>

@@ -169,10 +169,12 @@ html {
     font-weight: normal;
     font-size: 1.8rem;
     line-height: 2.7rem;
+
+    text-align: center;
 }
 
 .test_score {
-    left: 29.2rem;
+    left: 26.2rem;
 }
 
 .certificate_area {

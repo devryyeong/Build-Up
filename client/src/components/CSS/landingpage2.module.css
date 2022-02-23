@@ -1,15 +1,16 @@
 @font-face {
     font-family: "s-core dream5";
-    src: url("../font/S-Core_Dream_OTF/SCDream5.otf");
+    src: url("../../assets/font/S-Core_Dream_OTF/SCDream5.otf");
 }
 @font-face {
     font-family: "s-core dream6";
-    src: url("../font/S-Core_Dream_OTF/SCDream6.otf");
+    src: url("../../assets/font/S-Core_Dream_OTF/SCDream6.otf");
 }
 @font-face {
     font-family: "solway";
-    src: url("../font/Solway/Solway-Bold.ttf");
+    src: url("../../assets/font/Solway/Solway-Bold.ttf");
 }
+
 * {
     font-size: 10px;
 }

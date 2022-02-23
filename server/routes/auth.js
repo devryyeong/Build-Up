@@ -4,6 +4,7 @@ const crypto = require("crypto");
 // const { dbconfig, sshConfig } = require("../config/database");
 // const pool = mysql.createPool(dbconfig);
 const SSHPool = require("../config/database");
+const jwt = require("../util/jwt");
 
 const router = express.Router();
 
@@ -57,6 +58,8 @@ router.post("/signin", async (req, res, next) => {
 
   const sql = "SELECT * FROM user WHERE id=? AND password=?";
   const params = [id, pw_hash];
+
+  const pool = await SSHPool();
   const connection = await pool.getConnection(async (conn) => conn);
 
   try {
@@ -70,11 +73,24 @@ router.post("/signin", async (req, res, next) => {
       throw new Error("User not found.");
     }
 
+    user = user[0];
+
     console.log(user);
+    const token = await jwt.sign(user);
+    const accessToken = token.accessToken;
+
     Object.assign(result, {
       status: 200,
       message: "로그인 성공",
-      data: user[0],
+      data: {
+        id: user.id,
+        name: user.name,
+        picture: user.picture,
+        info: user.info,
+        phone: user.phone,
+        birth: user.birth,
+      },
+      accessToken,
     });
   } catch (error) {
     console.log(error);

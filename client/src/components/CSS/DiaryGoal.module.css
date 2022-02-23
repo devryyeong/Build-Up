@@ -1,0 +1,140 @@
+html {
+    font-size: 10px;
+}
+
+.calendar {
+    position: absolute;
+    width: 89.4rem;
+    left: 11.3rem;
+    top: 19.5rem;
+
+    font-size: 1.4rem;
+
+}
+
+.goalBorder {
+    position: absolute;
+    left: 106rem;
+    width: 38rem;
+    height: 102.4rem;
+    border-left: 0.1rem solid #FFCC00;
+}
+
+.searchGoal {
+    position: absolute;
+    width: 27.9rem;
+    height: 4.9rem;
+    left: 5rem;
+    top: 6.1rem;
+
+    background: #FFFFFF;
+    border: 0.1rem solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+
+    display: flex;
+}
+
+.searchGoal input {
+    margin-left: 1rem;
+
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    align-items: center;
+
+    color: #767676;
+
+}
+
+.schedule{
+    position: absolute;
+    width: 29.8rem;
+    height: 3.6rem;
+    left: 5rem;
+    top: 25.7rem;
+    
+}
+
+.schedule span {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+
+    color: #767676;
+}
+
+.schedule img {
+    position: absolute;
+    width: 1.9rem;
+    height: 1.9rem;
+    left: 27.1rem;
+    top: 3.2rem;
+    
+}
+
+.goalLine {
+    position: absolute;
+    width: 30.5rem;
+    height: 0.1rem;
+    left: 3.6rem;
+    top: 33.2rem;
+
+    background: #DBDBDB;
+}
+
+.setUpGoal {
+
+    position: absolute;
+    width: 29.8rem;
+    height: 35.1rem;
+    left: 4rem;
+    top: 36.9rem;
+
+    background-color: #FFDE5C;
+    border-radius: 2.3rem;
+}
+
+.setUpGoal div {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+
+    color: #767676;
+}
+
+.setUpGoal input {
+    margin-top: 0.2rem;
+    width: 25.8rem;
+    height: 7.2rem;
+
+    border-radius: 1rem;
+    
+}
+
+
+.btnArea button {
+    position: absolute;
+    width: 9rem;
+    height: 3.1rem;
+    top: 73.6rem;
+
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+
+    border-radius: 0.5rem;
+}
+
+.createBtn, .changeBtn {
+    left: 5rem;
+    background-color: #FFDE5C;
+    color: #ffffff;
+}
+
+.deleteBtn {
+    left: 15.1rem;
+    border: 0.1rem solid #DBDBDB;
+}

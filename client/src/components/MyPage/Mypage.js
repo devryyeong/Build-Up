@@ -39,7 +39,6 @@ const Mypage = () => {
             </form>
           </div>
           <div className={styles.portfolio}>
-              <button className={styles.setBtn}>버튼</button>
             <div>
               <h2 className={styles.title}>
                 <span>유저의 포트폴리오</span>
@@ -47,7 +46,7 @@ const Mypage = () => {
               <button className={styles.pdfBtn}>pdf로 변환하기</button>
               <hr style={{ width: "118.1rem", marginBottom: "3.8rem" }} />
             </div>
-            <img className={styles.myPhoto} src={require("../imgs/my_photo.png")}/>
+            <img className={styles.myPhoto} src={require("../imgs/my_photo.png")} alt="쓰웩"/>
             <form>
               <div className={styles.personalArea}>
                 <h3 className={styles.title}>

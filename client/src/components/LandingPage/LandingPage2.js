@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../CSS/Landingpage2.module.css";
+import styles from "../CSS/landingpage2.module.css";
 import { Link } from 'react-router-dom';
 
 const LandingPage2 = () => {
@@ -16,10 +16,10 @@ const LandingPage2 = () => {
           <div className={styles.textContainer}>
             <h2
               style={{
-                color: "#FFCC00",
-                fontSize: "48px",
-                fontWeight: "bold",
-                fontFamily: "s-core dream6"
+                color: '#FFCC00',
+                fontSize: '48px',
+                fontWeight: 'bold',
+                fontFamily: 's-core dream6',
               }}
             >
               다이어리
@@ -29,17 +29,25 @@ const LandingPage2 = () => {
               성취율과 출석율을 차트로 확인 가능합니다.
             </span>
           </div>
-          <img className={styles.img1} src={require("../imgs/diary.jpg")} alt="diary" />
+          <img
+            className={styles.img1}
+            src={require('../imgs/diary.jpg')}
+            alt="diary"
+          />
         </div>
         <div className={styles.container} id="buildup">
-          <img className={styles.img2} src={require("../imgs/buildUp.jpg")} alt="build-up" />
+          <img
+            className={styles.img2}
+            src={require('../imgs/buildup.jpg')}
+            alt="build-up"
+          />
           <div className={styles.textContainer}>
             <h2
               style={{
-                color: "#FFCC00",
-                fontSize: "48px",
-                fontWeight: "bold",
-                fontFamily: "s-core dream6"
+                color: '#FFCC00',
+                fontSize: '48px',
+                fontWeight: 'bold',
+                fontFamily: 's-core dream6',
               }}
             >
               빌드업
@@ -51,14 +59,18 @@ const LandingPage2 = () => {
           </div>
         </div>
         <div className={styles.container} id="portfolio">
-          <img className={styles.img3} src={require("../imgs/portfolio.jpg")} alt="portfolio" />
+          <img
+            className={styles.img3}
+            src={require('../imgs/portfolio.jpg')}
+            alt="portfolio"
+          />
           <div className={styles.textContainer}>
             <h2
               style={{
-                color: "#FFCC00",
-                fontSize: "48px",
-                fontWeight: "bold",
-                fontFamily: "s-core dream6"
+                color: '#FFCC00',
+                fontSize: '48px',
+                fontWeight: 'bold',
+                fontFamily: 's-core dream6',
               }}
             >
               포트폴리오
@@ -74,10 +86,10 @@ const LandingPage2 = () => {
           <div className={styles.textContainer}>
             <h2
               style={{
-                color: "#FFCC00",
-                fontSize: "48px",
-                fontWeight: "800",
-                fontFamily: "s-core dream6"
+                color: '#FFCC00',
+                fontSize: '48px',
+                fontWeight: '800',
+                fontFamily: 's-core dream6',
               }}
             >
               마이페이지
@@ -87,7 +99,11 @@ const LandingPage2 = () => {
               포트폴리오를 pdf로 변환시켜줍니다.
             </span>
           </div>
-          <img className={styles.img4} src={require("../imgs/mypage.jpg")} alt="mypage" />
+          <img
+            className={styles.img4}
+            src={require('../imgs/mypage.jpg')}
+            alt="mypage"
+          />
         </div>
       </section>
 
@@ -123,10 +139,14 @@ const LandingPage2 = () => {
           <div className={styles.buildupcontainer}>
             <img
               className={styles.footImgLogo}
-              src={require("../imgs/buildUp.jpg")}
+              src={require('../imgs/buildup.jpg')}
               alt="build-up"
             />
-            <img className={styles.footImgName} alt="build-up-text"/>
+            <img
+              className={styles.footImgName}
+              src={require('../imgs/buildup-text.png')}
+              alt="build-up-text"
+            />
             <span className={styles.footSpan}>
               당신의 취업을 옆에서 묵묵히 도와주는 웹, Build Up
               <br />
@@ -179,7 +199,11 @@ const LandingPage2 = () => {
             </ul>
             <ul className={styles.ul}>
               <h6>회사 소개</h6>
-              <li><a className={styles.link} href="#team">Build Up 팀 소개</a></li>
+              <li>
+                <a className={styles.link} href="#team">
+                  Build Up 팀 소개
+                </a>
+              </li>
               <li>회사 정책</li>
             </ul>
             <ul className={styles.ul}>
